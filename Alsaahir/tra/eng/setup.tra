@@ -1,0 +1,167 @@
+@0=~Alsaahir Kit~
+@1=~This mod is designed for the Baldur's Gate II engine and will not function on other games.~
+
+@150=~alsaahir~
+@151=~Alsaahir~
+@152=~ALSAAHIR: like a snake charmer, this bard has chosen to study the sensibility of fiends and undeads to vibrations and sounds. However, practicing with demons or undeads is a dangerous game and those who survive the firsts encounters never come back unhurt, physically and mentally. This path need to mastering the art of illusions, some wisdom and more fighter's training than a bard at the expense of his natural versatility and dexterity.
+
+Advantages:
+-  Can use the Alsaahir'song. This song further improves with levels
+-  At level 1, may conjure a Green Flame Blade once per day. gains another use at level 10 and 20
+-  At level 1, may use Wraithform 
+-  At level 3, Gains +3 to hit and damage against fiends and undeads. It becomes +6 at level 13
+-  At level 5, Gains 5% resistance to slashing, piercing, crushing, acid, fire and magical damages. It further improves at level 15
+-  Gains 1/2 attack bonus at level 8
+-  Can achieve mastery in daggers, scimitars and maces
+-  like an Illusionist Specialist, cast spell with +2/-2 saves against illusion spells
+-  knowledge of demons and undead is the prime necessity. Like a cleric, wisdom will increase spell cast by level
+
+Disadvantages:
+-  Only has one-half normal lore and Pick Pockets
+-  Can't be proficient in other weapon than daggers, scimitars, and maces and can't put slots in two weapons fighting style
+-  Can't cast spells from the necromancy's school
+-  May cast one spell less per level than regular bards. However, this does not delay when a new spell level can be gained.
+-  Must be Chaotically aligned
+
+Alsaahir'song:
+- At level 1, give all allies +2 to hit and damage against fiends and undead. It also lower save by 1 of all fiends and undead
+- At level 7, give all allies +3 to hit and damage against fiends and undead and immunity to fear. It also lower saves by 1 and magic resistance by 5% of all fiends and undead
+- At level 13, give all allies +4 to hit and damage against fiends and undead, immunity to fear and protection from fiends & undead. It also lower saves by 2 and magic resistance by 10% of all fiends and undead
+- At level 19, give all allies +5 to hit and damage against fiends and undead, immunity to fear, protection from fiends & undead and increase fire resistance by 50%. It also lower save by 2 and magic resistance by 15% of all fiends and undead.
+
+Green Flame Blade:
+- the Alsaahir has developed the ability to conjure a green Flame Blade. this weapon deals 1d10 salshing damage, 1d10 bonus damages to fiends and undead, is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above. 
+- The green Flame Blade lasts for 4 rounds + 1 round per 2 levels, up to 20 rounds.
+- At level 15, the blade provides immunity to fear; immunity to negative plane, at level 20; immunity to charms and confusion At level 25.
+
+Wraithform:
+At will, You and all of his gear become insubstantial and are subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons.  you also gains a 25% magic resistance but attacks or spells are not possible when in wraithform. A successful dispel magic spell forces you back to normal form.
+-  At level 10, gains protection against +1 wepons and 35% of magic resistance
+-  At level 20, gains protection against +2 wepons and 35% of magic resistance~
+/*~
+At Level 1, the demon charmer regenerate himself for 1 hit point per 2 seconds and inflicts 1 point of damage to all allies within sight. 
+At level 7, the demon charmer regenerate himself for 1 hit point per second and inflicts 1 points of damage to all allies within sight
+At level 13, the demon charmer regenerate himself for 2 hit point per seconds and inflicts 2 points of damage to all allies within sight
+At level 19, the demon charmer regenerate himself for 3 hit point per seconds and inflicts 2 points of damage to all allies within sight
+If their is no allies or if they are all unconscious, this song does nothing. when reach 1hp, This song won't kill allies, it will let them unconscious at 1hp.
+~*/
+@153=~Green Flaming Barrier
+(Evocation, Alteration)
+Level: 7
+Range: 0
+Duration: 5 Turns
+Casting Time: 4 
+Area of Effect: The Caster 
+Saving Throw: None 
+
+Long studies of demon's arcane have granted the alsaahir the ability to be enveloped by a green flaming barrier that both injures opponents and protects from damage. This barrier not only grants the user 50% Acids and Poison resistance and an AC bonus of 2, but also protects the caster from attacks made within a 5' radius around the caster.  An opponent that hits the caster with any weapons or spells within this radius suffers 1D10 +4 Acid damage. In addition, the intense heat protects the caster from all non-magical weapons, melee or missile.~
+@154=~Alsaahir'song~
+@155=~Moudjahidine's Flame Blade~
+@156=~Moudjahidine's Flame Blade:
+
+The pact has granted you a higher power and you will now conjure a Moudjahidine's Flame Blade instead of the Green Flame Blade. In addition to the powers of the Green Flame Blade, when hit by this sword, there is 15% chance that the target dies (vorpal effect: save vs. death at -2 or 3D8 slashing damage). In addition, dispels Magic at the wielder's level of experience with every strike~
+@157=~Almusalil's Flame Blade~
+@158=~Almusalil's Flame blade:
+
+The pact has granted you a higher power and you will now conjure a Almusalil's Flame Blade instead of the Green Flame Blade. In addition to the powers of the Green Flame Blade, when hit by this sword, there is 33% chance that target will loose 1 strength (save vs. death neg.), is stuned (save vs. breath neg.) and 33% chance of restoring the wielder of 2d8 hit points.~
+@159=~stairway to heaven~
+@160=~stairway to heaven:
+
+Your prefere a fight than illusion, you are a Moudjahidine. You have made a pact with an extraplanar creature to gain more powers. You gain 10% resitance to slashing, piercing, crushing, acid, fire and magical damages, +3 to thac0 and save vs breath~
+@161=~Stronger Pact~
+@162=~Stronger Pact:
+your gain +1 to damage, +1 to wisdom and +30 to HP~
+@163=~Sympathy For The Devil~
+@164=~Sympathy For The Devil:
+
+You prefere the art of deceiving and illusion, you are an Almusalil. You have made a pact with an extraplanar creature to gain more power. you gain +1 bonus to wisdom, +2 to AC and +3 save vs death~
+@165=~Stronger Pact:
+your gain Backstab at x3 and +2 to wisdom~
+@166=~Green Flame Blade~
+@167=~Green Flame Blade + 1~
+@168=~Green Flame Blade + 2~
+@169=~Green Flame Blade + 3~
+@170=~Green Flame Blade + 4~
+@171=~Green Flame Blade + 5~
+@172=~Moudjahidine's Flame Blade + 1~
+@173=~Moudjahidine's Flame Blade + 2~
+@174=~Moudjahidine's Flame Blade + 3~
+@175=~Moudjahidine's Flame Blade + 4~
+@176=~Moudjahidine's Flame Blade + 5~
+@177=~Almusalil's Flame Blade + 1~
+@178=~Almusalil's Flame Blade + 2~
+@179=~Almusalil's Flame Blade + 3~
+@180=~Almusalil's Flame Blade + 4~
+@181=~Almusalil's Flame Blade + 5~
+@182=~Magic Flute:
+
+This ability creates a magic flute made of pure magical energy. When played, the flute can be used to cast the following spells:
+Bolt of Glory - 3 charges
+Limited Wish - 1 charge
+Summon a Guardian - 1 charge
+
+The spell-like abilities on the Flute are used in the same way that a wand's powers are used. The Flute lasts for 1 day.
+~
+@183=~Your resistences have increase~
+@184=~Green Flaming Barrier~
+@185=~Green Flame Blade:
+
+Upon casting this ability, the alsaahir conjure a Green Flame Blade. This weapon deals 1d10 salshing damage, deals double damages to fiends and undead, is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above. The green Flame Blade lasts for 4 rounds + 1 round per 2 levels, up to 20 rounds.
+At level 15, the blade provides immunity to fear
+At level 20, the blade provides immunity to fear and negative plane
+At level 25, the blade provides immunity to fear, negative plane and charms and confusion
+~
+@186=~Displacement~
+@187=~Displacement (Illusion/Phantasm)
+ 
+Level: 2
+Range: 0
+Duration:  10 rounds
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+When a Displacement spell is cast, the wizard projects an illusion of themself anywhere within 2 feet of their actual location. The caster was still vulnerable to being detected normally by other creatures. If a true seeing spell was cast by another, they would be able to see the true location of the caster. The wizard benefits from a 50% miss chance and This distortion causes all missile and melee combat attacks against the caster to be made with -2 penalties.  The wizard also gains a +2 to all of his saving throws.~
+@188=~Magic Flute:
+
+This ability creates a magic flute made of pure magical energy. When played, the flute can be used to cast the following spells:
+Bolt of Glory - 3 charges
+Limited Wish - 1 charge
+Summon a Deceiver - 1 charge
+
+The spell-like abilities on the Flute are used in the same way that a wand's powers are used. The Flute lasts for 1 day.~
+@189=~Wraithform~
+@190=~Wraithform (Alteration, Illusion/Phantasm)
+
+Level: 3
+Range: 0
+Duration: 10 Rounds 
+Casting Time: 1 
+Area of Effect: The caster 
+Saving Throw: None 
+
+When this ability is cast, the caster and all of his gear become insubstantial. He is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons. He also gains 25% of magic resistance.  No form of attack or spell is possible when in wraithform. A successful dispel magic spell forces the caster in wraithform back to normal form. The caster can end the spell with a single word.
+At level 10, this ability also protect against +1 weapons and the caster gains a 35% magic resistance. At level 20, the protection futher increase to +2 weapons and the caster gains a 45% magic resistance.
+
+Undead of most sorts will ignore an individual in wraithform, believing him to be a wraith or spectre, though a lich, vampire or special undead may recognize the spell.~
+@191=~Wraithform dispelled~
+@192=~Summon Guardian~
+@193=~Summon Guardian (Conjuration/Summoning) 
+
+Range: 40 yards 
+Duration: 8 rounds + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special 
+Saving Throw: None
+
+With this spell, the Moudjahidine can cajole an Guardian, a massive genie with powerful abilities, to leave the elemental plane and enter the Prime Material.  The Guardian will serve the for the duration indicated above, attacking the enemies of the Moudjahidine.~
+@194=~Summon Deceiver~
+@195=~Summon Deceiver (Conjuration/Summoning) 
+
+Range: 40 yards 
+Duration: 8 rounds + 1 round/level
+Casting Time: 1 round
+Area of Effect: Special 
+Saving Throw: None
+
+With this spell, the Almusalil can cajole an Deceiver, a massive genie with powerful abilities, to leave the elemental plane and enter the Prime Material.  The Deceiver will serve for the duration indicated above, attacking the enemies of the Almusalil.~

@@ -1,0 +1,559 @@
+
+MKDIR ~alsaahir/baf~
+<<<<<<<< empty
+>>>>>>>>
+
+COPY empty ~alsaahir/baf/wis_spell.baf~
+
+
+
+OUTER_SET i = 13
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY ~alsaahir/spl/wis_spell.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 parameter2 = 1 parameter1 = 1 END // parameter2 : level 1(1), 2(2), 3(4), 4(8), 5(16), 6(32), 7(64)
+	LPF CLONE_EFFECT INT_VAR match_opcode = 42 opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 206 target = 2 parameter2 = 0 timing = 9 probability1 = 100 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY ~alsaahir/spl/wis_spell.spl~ ~override/TR#dcs%j%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 parameter1 = "-1" parameter2 = 1 END
+	LPF CLONE_EFFECT INT_VAR match_opcode = 42 opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 206 target = 2 parameter2 = 0 timing = 9 probability1 = 100 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~ 
+
+OUTER_SET i = 14
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 parameter2 = 1 parameter1 = 2 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF CLONE_EFFECT INT_VAR match_opcode = 42 match_parameter1 = "-1" parameter2 = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~ 
+
+OUTER_SET i = 15
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 2 parameter1 = 1 timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 2 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+
+OUTER_SET i = 16
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 2 parameter1 = 2  END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF CLONE_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 2 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+
+OUTER_SET i = 17
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 4 parameter1 = 1 timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 4 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+
+OUTER_SET i = 18
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 8 parameter1 = 1 timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 8 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+
+OUTER_SET i = 19
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 1 parameter1 = 3 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 4 parameter1 = 2 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 1 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 4 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+OUTER_SET i = 20
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 2 parameter1 = 3 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 8 parameter1 = 2 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 2 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 8 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+OUTER_SET i = 21
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 4 parameter1 = 3  END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 16 parameter1 = 1 timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 4 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 16 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+OUTER_SET i = 22
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 8 parameter1 = 3 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 16 parameter1 = 2 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 8 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 16 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+OUTER_SET i = 23
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 1 parameter1 = 4 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 32 parameter1 = 1 timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 1 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 32 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+OUTER_SET i = 24
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 16 parameter1 = 3 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 32 parameter1 = 2 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 16 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 32 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
+
+OUTER_SET i = 25
+
+  OUTER_SET j = 100 - i
+  OUTER_SET k = i - 1
+  OUTER_SET l = j + 1
+  OUTER_SPRINT spl_i ~TR#dcs%i%~
+  OUTER_SPRINT spl_j ~TR#dcs%j%~
+  COPY_EXISTING ~TR#dcs%k%.spl~ ~override/TR#dcs%i%.spl~
+	LPF ALTER_EFFECT INT_VAR match_opcode = 42 match_parameter2 = 32 parameter1 = 3 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 64 parameter1 = 1 timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_j%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_i%~ END
+
+  COPY_EXISTING ~TR#dcs%l%.spl~ ~override/TR#dcs%j%.spl~
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 32 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ADD_SPELL_EFFECT INT_VAR opcode = 42 target = 2 parameter2 = 64 parameter1 = "-1" timing = 9 probability1 = 100 insert_point = 1 END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 266 STR_VAR resource = EVAL ~%spl_i%~ END
+	LPF ALTER_EFFECT INT_VAR match_opcode = 206 STR_VAR resource = EVAL ~%spl_j%~ END
+    
+    APPEND_OUTER ~alsaahir/baf/wis_spell.baf~ ~
+      IF
+        Global("TR#dcs","GLOBAL",0)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",%i%)
+          ApplySpellRES("TR#dcs%i%",Protagonist)
+          Continue()
+      END
+
+      IF
+        Global("TR#dcs","GLOBAL",%i%)
+		Kit(Protagonist,"TR#ALSAAHIR")
+        !CheckStat(Protagonist,%i%,WIS)
+      THEN
+        RESPONSE #100
+          SetGlobal("TR#dcs","GLOBAL",0)
+          ApplySpellRES("TR#dcs%j%",Protagonist)
+          Continue()
+      END
+      ~
