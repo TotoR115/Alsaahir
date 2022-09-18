@@ -133,12 +133,14 @@ COPY ~alsaahir/spl/TRDC010.SPL~ override                 // Resistances bonus 2 
 COPY ~alsaahir/spl/TRDC013.SPL~ override                 // Moudjahidine's Flame blade
 	  SAY NAME1 @155
 	  SAY 0x50 @156
+	  WRITE_ASCII 0x58 "CFLAM01" #8
 COPY ~alsaahir/spl/TRDC020.SPL~ override                 // Wisdom +1, AC +2 and +3 save vs death
 	  SAY NAME1 @163
 	  SAY 0x50 @164
 COPY ~alsaahir/spl/TRDC023.SPL~ override                 // Almusalil's Flame Blade
 	  SAY NAME1 @157
 	  SAY 0x50 @158
+	  WRITE_ASCII 0x58 "CFLAM01" #8
 COPY ~alsaahir/spl/TRDC024.SPL~ override                 // Almusalil's special Magical Flute
 	  SAY 0x50 @182
 
@@ -218,38 +220,53 @@ COPY ~alsaahir/itm/TR#dcdcv.ITM~ override                // Undroppable Piercing
 	 ~alsaahir/itm/TR#DCFLT.ITM~ override                // Alsaahir special Magical Flute
 COPY ~alsaahir/itm/TR#GFBL0.ITM~ override                // Green Flame Blade lv1
 	  SAY NAME2 @166
-COPY ~alsaahir/itm/TR#GFBL3.ITM~ override 				  // Green Flame Blade lv16
+	  SAY DESC @1661
+	  SAY IDENTIFIED_DESC @1661
+	  WRITE_ASCII 0x58 "CFLAM01" #8	  
+COPY ~alsaahir/itm/TR#GFBL3.ITM~ override 				  // Green Flame Blade lv15
 	  SAY NAME2 @169
-COPY ~alsaahir/itm/TR#GFBL4.ITM~ override 				  // Green Flame Blade lv21
+	  SAY DESC @1691
+	  SAY IDENTIFIED_DESC @1691
+	  WRITE_ASCII 0x58 "CFLAM01" #8	  
+COPY ~alsaahir/itm/TR#GFBL4.ITM~ override 				  // Green Flame Blade lv20
 	  SAY NAME2 @170
-COPY ~alsaahir/itm/TR#GFBL5.ITM~ override 				  // Green Flame Blade lv26
+	  SAY DESC @1701
+	  SAY IDENTIFIED_DESC @1701
+	  WRITE_ASCII 0x58 "CFLAM01" #8	  
+COPY ~alsaahir/itm/TR#GFBL5.ITM~ override 				  // Green Flame Blade lv25
 	  SAY NAME2 @171
+	  SAY DESC @1711
+	  SAY IDENTIFIED_DESC @1711
+	  WRITE_ASCII 0x58 "CFLAM01" #8	  
 
 COPY_EXISTING ~TR#DCFLT.ITM~ ~override/TR#ACFLT.ITM~      // Alsaahir special Magical Flute
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 146 STR_VAR match_resource = "TR#DCDCV" resource = "TR#DCGRD" END
 
-COPY_EXISTING ~TR#GFBL0.ITM~ "override/TR#GFBL1.ITM" 	  // Green Flame Blade lv6
+COPY_EXISTING ~TR#GFBL0.ITM~ "override/TR#GFBL1.ITM" 	  // Green Flame Blade lv5
 	  SAY NAME2 @167
+	  SAY DESC @1671
+	  SAY IDENTIFIED_DESC @1671
 	  WRITE_LONG 0x60 1
+	  WRITE_BYTE 0x84 4
 	  WRITE_SHORT 0x86 1
 	  WRITE_SHORT 0x8c 1
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 177 STR_VAR resource = "TR#DMG1" END
-COPY_EXISTING ~TR#GFBL1.ITM~ "override/TR#VFBL1.ITM" 	  // Astral Flame Blade lv6
+COPY_EXISTING ~TR#GFBL1.ITM~ "override/TR#VFBL1.ITM" 	  // Moudjahidine Flame Blade lv6
 	  SAY NAME2 @172
 	  WRITE_ASCII 0x3a "TR#VFBL"
 	  WRITE_ASCII 0x76 "TR#VFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 STR_VAR resource = "TR#vorp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 savebonus = "-2" savingthrow = 4 STR_VAR resource = "TR#vorp" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 12 parameter1 = 0 parameter2 = 16777216 dicenumber = 3 dicesize = 8 target = 2 timing = 1 probability1 = 15 END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 STR_VAR resource = "TR#disp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 savingthrow = 1 STR_VAR resource = "TR#disp" END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 104 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 67 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 7 END
-COPY_EXISTING ~TR#GFBL1.ITM~ "override/TR#DFBL1.ITM" 	  // Dark flame blade lv6
+COPY_EXISTING ~TR#GFBL1.ITM~ "override/TR#DFBL1.ITM" 	  // Almusalil flame blade lv6
 	  SAY NAME2 @177
 	  WRITE_ASCII 0x3a "TR#DFBL"
 	  WRITE_ASCII 0x76 "TR#DFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 STR_VAR resource = "TR#drain" END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 STR_VAR resource = "TR#stun" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 savingthrow = 4 STR_VAR resource = "TR#drain" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 savingthrow = 2 STR_VAR resource = "TR#stun" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 1 timing = 9 probability1 = 100 probability2 = 67 STR_VAR resource = "TR#heal" END
 	  PATCH_IF MOD_IS_INSTALLED 1PP.TP2 103 BEGIN
 	    LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 229 END
@@ -259,26 +276,29 @@ COPY_EXISTING ~TR#GFBL1.ITM~ "override/TR#DFBL1.ITM" 	  // Dark flame blade lv6
 
 COPY ~alsaahir/itm/TR#GFBL0.ITM~ "override/TR#GFBL2.ITM"  // Green Flame Blade lv11
 	  SAY NAME2 @168
+	  SAY DESC @1681
+	  SAY IDENTIFIED_DESC @1681
 	  WRITE_LONG 0x60 2
+	  WRITE_BYTE 0x84 3
 	  WRITE_SHORT 0x86 2
 	  WRITE_SHORT 0x8c 2
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 177 STR_VAR resource = "TR#DMG2" END
-COPY_EXISTING ~TR#GFBL2.ITM~ "override/TR#VFBL2.ITM"      // Astral Flame Blade lv11
+COPY_EXISTING ~TR#GFBL2.ITM~ "override/TR#VFBL2.ITM"      // Moudjahidine Flame Blade lv11
 	  SAY NAME2 @173
 	  WRITE_ASCII 0x3a "TR#VFBL"
 	  WRITE_ASCII 0x76 "TR#VFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 STR_VAR resource = "TR#vorp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 savebonus = "-2" savingthrow = 4 STR_VAR resource = "TR#vorp" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 12 parameter1 = 0 parameter2 = 16777216 dicenumber = 3 dicesize = 8 target = 2 timing = 1 probability1 = 15 END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 STR_VAR resource = "TR#disp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 savingthrow = 1 STR_VAR resource = "TR#disp" END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 104 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 67 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 7 END
-COPY_EXISTING ~TR#GFBL2.ITM~ "override/TR#DFBL2.ITM" 	  // Dark flame blade lv11
+COPY_EXISTING ~TR#GFBL2.ITM~ "override/TR#DFBL2.ITM" 	  // Almusalil flame blade lv11
 	  SAY NAME2 @178
 	  WRITE_ASCII 0x3a "TR#DFBL"
 	  WRITE_ASCII 0x76 "TR#DFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 STR_VAR resource = "TR#drain" END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 STR_VAR resource = "TR#stun" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 savingthrow = 4 STR_VAR resource = "TR#drain" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 savingthrow = 2 STR_VAR resource = "TR#stun" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 1 timing = 9 probability1 = 100 probability2 = 67 STR_VAR resource = "TR#heal" END
 	  PATCH_IF MOD_IS_INSTALLED 1PP.TP2 103 BEGIN
 	    LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 229 END
@@ -286,22 +306,24 @@ COPY_EXISTING ~TR#GFBL2.ITM~ "override/TR#DFBL2.ITM" 	  // Dark flame blade lv11
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 80 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 31 END
 
-COPY_EXISTING ~TR#GFBL3.ITM~ "override/TR#VFBL3.ITM" 	  // Astral Flame Blade lv16
+COPY_EXISTING ~TR#GFBL3.ITM~ "override/TR#VFBL3.ITM" 	  // Moudjahidine Flame Blade lv16
 	  SAY NAME2 @174
+	  SAY DESC @1671
+	  SAY IDENTIFIED_DESC @1671
 	  WRITE_ASCII 0x3a "TR#VFBL"
 	  WRITE_ASCII 0x76 "TR#VFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 STR_VAR resource = "TR#vorp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 savebonus = "-2" savingthrow = 4 STR_VAR resource = "TR#vorp" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 12 parameter1 = 0 parameter2 = 16777216 dicenumber = 3 dicesize = 8 target = 2 timing = 1 probability1 = 15 END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 STR_VAR resource = "TR#disp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 savingthrow = 1 STR_VAR resource = "TR#disp" END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 104 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 67 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 7 END
-COPY_EXISTING ~TR#GFBL3.ITM~ "override/TR#DFBL3.ITM" 	  // Dark flame blade lv16
+COPY_EXISTING ~TR#GFBL3.ITM~ "override/TR#DFBL3.ITM" 	  // Almusalil flame blade lv16
 	  SAY NAME2 @179
 	  WRITE_ASCII 0x3a "TR#DFBL"
 	  WRITE_ASCII 0x76 "TR#DFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 STR_VAR resource = "TR#drain" END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 STR_VAR resource = "TR#stun" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 savingthrow = 4 STR_VAR resource = "TR#drain" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 savingthrow = 2 STR_VAR resource = "TR#stun" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 1 timing = 9 probability1 = 100 probability2 = 67 STR_VAR resource = "TR#heal" END
 	  PATCH_IF MOD_IS_INSTALLED 1PP.TP2 103 BEGIN
 	    LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 229 END
@@ -309,22 +331,26 @@ COPY_EXISTING ~TR#GFBL3.ITM~ "override/TR#DFBL3.ITM" 	  // Dark flame blade lv16
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 80 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 31 END
 
-COPY_EXISTING ~TR#GFBL4.ITM~ "override/TR#VFBL4.ITM" 	  // Astral Flame Blade lv21
+COPY_EXISTING ~TR#GFBL4.ITM~ "override/TR#VFBL4.ITM" 	  // Moudjahidine Flame Blade lv21
 	  SAY NAME2 @175
+	  SAY DESC @1751
+	  SAY IDENTIFIED_DESC @1751
 	  WRITE_ASCII 0x3a "TR#VFBL"
 	  WRITE_ASCII 0x76 "TR#VFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 STR_VAR resource = "TR#vorp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 savebonus = "-2" savingthrow = 4 STR_VAR resource = "TR#vorp" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 12 parameter1 = 0 parameter2 = 16777216 dicenumber = 3 dicesize = 8 target = 2 timing = 1 probability1 = 15 END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 STR_VAR resource = "TR#disp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 100 savingthrow = 1 STR_VAR resource = "TR#disp" END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 104 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 67 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 7 END
-COPY_EXISTING ~TR#GFBL4.ITM~ "override/TR#DFBL4.ITM" 	  // Dark flame blade lv21
+COPY_EXISTING ~TR#GFBL4.ITM~ "override/TR#DFBL4.ITM" 	  // Almusalil flame blade lv21
 	  SAY NAME2 @180
+	  SAY DESC @1801
+	  SAY IDENTIFIED_DESC @1801
 	  WRITE_ASCII 0x3a "TR#DFBL"
 	  WRITE_ASCII 0x76 "TR#DFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 STR_VAR resource = "TR#drain" END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 STR_VAR resource = "TR#stun" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 savingthrow = 4 STR_VAR resource = "TR#drain" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 savingthrow = 2 STR_VAR resource = "TR#stun" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 1 timing = 9 probability1 = 100 probability2 = 67 STR_VAR resource = "TR#heal" END
 	  PATCH_IF MOD_IS_INSTALLED 1PP.TP2 103 BEGIN
 	    LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 229 END
@@ -332,22 +358,26 @@ COPY_EXISTING ~TR#GFBL4.ITM~ "override/TR#DFBL4.ITM" 	  // Dark flame blade lv21
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 80 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 31 END
 
-COPY_EXISTING ~TR#GFBL5.ITM~ "override/TR#VFBL5.ITM" 	  // Astral Flame Blade lv26
+COPY_EXISTING ~TR#GFBL5.ITM~ "override/TR#VFBL5.ITM" 	  // Moudjahidine Flame Blade lv26
 	  SAY NAME2 @176
+	  SAY DESC @1761
+	  SAY IDENTIFIED_DESC @1761
 	  WRITE_ASCII 0x3a "TR#VFBL"
 	  WRITE_ASCII 0x76 "TR#VFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 STR_VAR resource = "TR#vorp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 15 savebonus = "-2" savingthrow = 4 STR_VAR resource = "TR#vorp" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 12 parameter1 = 0 parameter2 = 16777216 dicenumber = 3 dicesize = 8 target = 2 timing = 1 probability1 = 15 END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 1 probability1 = 100 STR_VAR resource = "TR#disp" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 1 probability1 = 100 savingthrow = 1 STR_VAR resource = "TR#disp" END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 104 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 20 parameter1 = 67 END
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 16 parameter1 = 7 END
-COPY_EXISTING ~TR#GFBL5.ITM~ "override/TR#DFBL5.ITM" 	  // Dark flame blade lv26
+COPY_EXISTING ~TR#GFBL5.ITM~ "override/TR#DFBL5.ITM" 	  // Almusalil flame blade lv26
 	  SAY NAME2 @181
+	  SAY DESC @1811
+	  SAY IDENTIFIED_DESC @1811
 	  WRITE_ASCII 0x3a "TR#DFBL"
 	  WRITE_ASCII 0x76 "TR#DFBL"
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 STR_VAR resource = "TR#drain" END
-	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 STR_VAR resource = "TR#stun" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 33 savingthrow = 4 STR_VAR resource = "TR#drain" END
+	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 2 timing = 9 probability1 = 66 probability2 = 34 savingthrow = 2 STR_VAR resource = "TR#stun" END
 	  LPF ADD_SPELL_EFFECT INT_VAR opcode = 146 parameter1 = 0 parameter2 = 1 target = 1 timing = 9 probability1 = 100 probability2 = 67 STR_VAR resource = "TR#heal" END
 	  PATCH_IF MOD_IS_INSTALLED 1PP.TP2 103 BEGIN
 	    LPF ALTER_EFFECT INT_VAR match_opcode = 7 match_parameter2 = 21 parameter1 = 229 END
@@ -379,20 +409,20 @@ COMPILE ~alsaahir/BAF/TR#DCGRD.BAF~
 ///// New graphics
 //////////////////
 
-COPY ~alsaahir/bam/TR#DFBLx.vvc~ override                // Dark Flame Visual effect
+COPY ~alsaahir/bam/TR#DFBLx.vvc~ override                // Almusalil Flame Visual effect
 	 ~alsaahir/bam/TR#GFBLx.vvc~ override                // Green Flame Visual effect
-	 ~alsaahir/bam/TR#VFBLx.vvc~ override                // Astral Flame Visual effect
+	 ~alsaahir/bam/TR#VFBLx.vvc~ override                // Moudjahidine Flame Visual effect
 	 ~alsaahir/bam/TR#DCgfh.vvc~ override                // green fire shield visual effect
 	 ~alsaahir/bam/TR#DCgfl.vvc~ override                // green fire shield visual effect
-	 ~alsaahir/bam/TR#DFBL.bam~ override                 // Dark Flame Blade icon
-	 ~alsaahir/bam/TR#dfblB.bam~ override                // Dark flame blade icon
-	 ~alsaahir/bam/TR#DCdfb.bam~ override                // Dark flame blade visual invoc
+	 ~alsaahir/bam/TR#DFBL.bam~ override                 // Almusalil Flame Blade icon
+	 ~alsaahir/bam/TR#dfblB.bam~ override                // Almusalil flame blade icon
+	 ~alsaahir/bam/TR#DCdfb.bam~ override                // Almusalil flame blade visual invoc
 	 ~alsaahir/bam/TR#GFBL.bam~ override                 // Green Flame Blade icon
 	 ~alsaahir/bam/TR#gfblB.bam~ override                // green flame blade icon
 	 ~alsaahir/bam/TR#DCgfb.bam~ override                // green flame blade visual invoc
-	 ~alsaahir/bam/TR#VFBL.bam~ override                 // Astral Flame Blade icon
-	 ~alsaahir/bam/TR#vfblB.bam~ override                // Astral Flame blade icon
-	 ~alsaahir/bam/TR#DCvfb.bam~ override                // Astral Flame blade visual invoc
+	 ~alsaahir/bam/TR#VFBL.bam~ override                 // Moudjahidine Flame Blade icon
+	 ~alsaahir/bam/TR#vfblB.bam~ override                // Moudjahidine Flame blade icon
+	 ~alsaahir/bam/TR#DCvfb.bam~ override                // Moudjahidine Flame blade visual invoc
 	 ~alsaahir/bam/TR#DCgfh.bam~ override                // green fire shield bam
 	 ~alsaahir/bam/TR#DCgfs.bam~ override                // green fire shield bam
 	 ~alsaahir/bam/TR#gfsB.bam~ override                 // green fire shield icon

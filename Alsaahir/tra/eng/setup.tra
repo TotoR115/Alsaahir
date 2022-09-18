@@ -3,41 +3,40 @@
 
 @150=~alsaahir~
 @151=~Alsaahir~
-@152=~ALSAAHIR: like a snake charmer, this bard has chosen to study the sensibility of fiends and undeads to vibrations and sounds. However, practicing with demons or undeads is a dangerous game and those who survive the firsts encounters never come back unhurt, physically and mentally. This path need to mastering the art of illusions, some wisdom and more fighter's training than a bard at the expense of his natural versatility and dexterity.
+@152=~ALSAAHIR: like a snake charmer, this bard has studied the sensibility of fiends and undeads to vibrations. However, practicing with demons or undeads is a dangerous game and those who survive the firsts encounters never come back unhurt, physically and mentally. This path needs wisdom, to mastering the art of illusions and more fighter's skills than a bard at the expense of his natural versatility and dexterity
 
 Advantages:
--  Can use the Alsaahir'song. This song further improves with levels
+-  Can use the Alsaahir'song.
 -  At level 1, may conjure a Green Flame Blade once per day. gains another use at level 10 and 20
--  At level 1, may use Wraithform 
+-  At level 1, may use Wraithform at will
 -  At level 3, Gains +3 to hit and damage against fiends and undeads. It becomes +6 at level 13
 -  At level 5, Gains 5% resistance to slashing, piercing, crushing, acid, fire and magical damages. It further improves at level 15
 -  Gains 1/2 attack bonus at level 8
 -  Can achieve mastery in daggers, scimitars and maces
--  like an Illusionist Specialist, cast spell with +2/-2 saves against illusion spells
--  knowledge of demons and undead is the prime necessity. Like a cleric, wisdom will increase spell cast by level
+-  like an Illusionist, casts and resists better to illusion's spells with +2/-2 saves
+-  knowledge is a weapon. Like a cleric, wisdom increase the number of spells cast by level
 
 Disadvantages:
 -  Only has one-half normal lore and Pick Pockets
 -  Can't be proficient in other weapon than daggers, scimitars, and maces and can't put slots in two weapons fighting style
 -  Can't cast spells from the necromancy's school
--  May cast one spell less per level than regular bards. However, this does not delay when a new spell level can be gained.
+-  May cast one spell less per level than regular bards
 -  Must be Chaotically aligned
 
-Alsaahir'song:
-- At level 1, give all allies +2 to hit and damage against fiends and undead. It also lower save by 1 of all fiends and undead
-- At level 7, give all allies +3 to hit and damage against fiends and undead and immunity to fear. It also lower saves by 1 and magic resistance by 5% of all fiends and undead
-- At level 13, give all allies +4 to hit and damage against fiends and undead, immunity to fear and protection from fiends & undead. It also lower saves by 2 and magic resistance by 10% of all fiends and undead
-- At level 19, give all allies +5 to hit and damage against fiends and undead, immunity to fear, protection from fiends & undead and increase fire resistance by 50%. It also lower save by 2 and magic resistance by 15% of all fiends and undead.
+ALSAAHIR'SONG:
+-  At level 1, give all allies +2 to hit and damage against fiends and undeads. It lowers saves by 1 of all fiends and undeads
+-  At level 7, give all allies +3 to hit and damage against fiends and undeads and immunity to fear. It lowers saves by 1 and magic resistance by 5% of all fiends and undeads
+-  At level 13, give all allies +4 to hit and damage against fiends and undeads, immunity to fear and protection from fiends & undeads. It lowers saves by 2 and magic resistance by 10% of all fiends and undeads
+-  At level 19, give all allies +5 to hit and damage against fiends and undeads, immunity to fear, protection from fiends & undeads and increase fire resistance by 50%. It lowers saves by 2 and magic resistance by 15% of all fiends and undeads
 
-Green Flame Blade:
-- the Alsaahir has developed the ability to conjure a green Flame Blade. this weapon deals 1d10 salshing damage, 1d10 bonus damages to fiends and undead, is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above. 
-- The green Flame Blade lasts for 4 rounds + 1 round per 2 levels, up to 20 rounds.
-- At level 15, the blade provides immunity to fear; immunity to negative plane, at level 20; immunity to charms and confusion At level 25.
+GREEN FLAME BLADE:
+The Alsaahir has developed the ability to conjure a green Flame Blade. This weapon deals 1d10 salshing damage and 1d10 bonus damages to fiends and undeads. It is non-magical at levels 1-4, +1 at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above. it lasts for 4 rounds + 1 round per 2 levels, up to 20 rounds
+-  The blade provides to the wielder immunity to fear, At level 15, immunity to negative plane, at level 20 and immunity to charms and confusion At level 25 and above
 
-Wraithform:
-At will, You and all of his gear become insubstantial and are subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons.  you also gains a 25% magic resistance but attacks or spells are not possible when in wraithform. A successful dispel magic spell forces you back to normal form.
--  At level 10, gains protection against +1 wepons and 35% of magic resistance
--  At level 20, gains protection against +2 wepons and 35% of magic resistance~
+WRAITHFORM:
+At will, You and all of his gear become insubstantial and are subject only to magical or special attacks or by creatures otherwise able to affect those struck only by magical weapons. You also gains a 25% magic resistance bonus. Attacks or spells are not possible when in wraithform. A successful dispel magic spell forces you back to normal form
+-  At level 10, gains protection against +1 wepons and 35% of magic resistance bonus
+-  At level 20, gains protection against +2 wepons and 45% of magic resistance bonus~
 /*~
 At Level 1, the demon charmer regenerate himself for 1 hit point per 2 seconds and inflicts 1 point of damage to all allies within sight. 
 At level 7, the demon charmer regenerate himself for 1 hit point per second and inflicts 1 points of damage to all allies within sight
@@ -63,7 +62,7 @@ The pact has granted you a higher power and you will now conjure a Moudjahidine'
 @157=~Almusalil's Flame Blade~
 @158=~Almusalil's Flame blade:
 
-The pact has granted you a higher power and you will now conjure a Almusalil's Flame Blade instead of the Green Flame Blade. In addition to the powers of the Green Flame Blade, when hit by this sword, there is 33% chance that target will loose 1 strength (save vs. death neg.), is stuned (save vs. breath neg.) and 33% chance of restoring the wielder of 2d8 hit points.~
+The pact has granted you a higher power and you will now conjure a Almusalil's Flame Blade instead of the Green Flame Blade. In addition to the powers of the Green Flame Blade, when hit by this sword, there is 33% chance that target will loose 1 strength, is stuned and 33% chance of restoring the wielder of 2d8 hit points.~
 @159=~stairway to heaven~
 @160=~stairway to heaven:
 
@@ -78,21 +77,253 @@ You prefere the art of deceiving and illusion, you are an Almusalil. You have ma
 @165=~Stronger Pact:
 your gain Backstab at x3 and +2 to wisdom~
 @166=~Green Flame Blade~
-@167=~Green Flame Blade + 1~
-@168=~Green Flame Blade + 2~
-@169=~Green Flame Blade + 3~
-@170=~Green Flame Blade + 4~
-@171=~Green Flame Blade + 5~
-@172=~Moudjahidine's Flame Blade + 1~
-@173=~Moudjahidine's Flame Blade + 2~
-@174=~Moudjahidine's Flame Blade + 3~
-@175=~Moudjahidine's Flame Blade + 4~
-@176=~Moudjahidine's Flame Blade + 5~
-@177=~Almusalil's Flame Blade + 1~
-@178=~Almusalil's Flame Blade + 2~
-@179=~Almusalil's Flame Blade + 3~
-@180=~Almusalil's Flame Blade + 4~
-@181=~Almusalil's Flame Blade + 5~
+@1661=~Green Flame Blade
+
+This flaming green sword radiates a palpable demonic aura. The sword appears in the hand of the Alsaahir. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+
+STATISTICS:
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+
+Damage: 1D10
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 5
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@167=~Green Flame Blade +1~
+@1671=~Green Flame Blade +1
+
+This flaming green sword radiates a palpable demonic aura. The sword appears in the hand of the Alsaahir. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+
+STATISTICS:
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+
+THAC0: +1 bonus
+Damage: 1D10 +1
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 4
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@168=~Green Flame Blade +2~
+@1681=~Green Flame Blade +2
+
+This flaming green sword radiates a palpable demonic aura. The sword appears in the hand of the Alsaahir. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+
+STATISTICS:
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+
+THAC0: +2 bonus
+Damage: 1D10 +2
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 3
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@169=~Green Flame Blade +3~
+@1691=~Green Flame Blade +3
+
+This flaming green sword radiates a palpable demonic aura. The sword appears in the hand of the Alsaahir. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to fear effects
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+
+THAC0: +3 bonus
+Damage: 1D10 +3
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 2
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@170=~Green Flame Blade +4~
+@1701=~Green Flame Blade +4
+
+This flaming green sword radiates a palpable demonic aura. The sword appears in the hand of the Alsaahir. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to level drain effects
+ Immunity to fear effectse
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+
+THAC0: +4 bonus
+Damage: 1D10 +4
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@171=~Green Flame Blade +5~
+@1711=~Green Flame Blade +5
+
+This flaming green sword radiates a palpable demonic aura. The sword appears in the hand of the Alsaahir. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to level drain effects
+ Immunity to charm, confusion and fear effects
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+
+THAC0: +5 bonus
+Damage: 1D10 +5
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 0
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@172=~Moudjahidine's Flame Blade +1~
+@173=~Moudjahidine's Flame Blade +2~
+@174=~Moudjahidine's Flame Blade +3~
+@175=~Moudjahidine's Flame Blade +4~
+@1751=~Moudjahidine Flame Blade +4
+
+This flaming sword radiates a palpable extraplanar aura. The sword appears in the hand of the Moudjahidine. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+The pact has granted you a higher power and now in addition to the powers of the Green Flame Blade, when hit by this sword, there is 15% chance that the target dies or taking 3D8 slashing damage. Every successful hit dispels Magic.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to level drain effects
+ Immunity to fear effects
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+ Moudjahidine: 15% chance target dies (save vs. death at -2 penalty neg.) or takes 3D8 Slashing damage
+ Dispelling: removes all magical effects from the target (save vs. spell neg.)
+
+THAC0: +4 bonus
+Damage: 1D10 +4
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Moudjahidine~
+@176=~Moudjahidine's Flame Blade +5~
+@1761=~Moudjahidine Flame Blade +5
+
+This flaming sword radiates a palpable extraplanar aura. The sword appears in the hand of the Moudjahidine. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+The pact has granted you a higher power and now in addition to the powers of the Green Flame Blade, when hit by this sword, there is 15% chance that the target dies or taking 3D8 slashing damage. Every successful hit dispels Magic.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to level drain effects
+ Immunity to charm, confusion and fear effects
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+ Moudjahidine: 15% chance target dies (save vs. death at -2 penalty neg.) or takes 3D8 Slashing damage
+ Dispelling: removes all magical effects from the target (save vs. spell neg.)
+
+THAC0: +5 bonus
+Damage: 1D10 +5
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 0
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Alsaahir~
+@177=~Almusalil's Flame Blade +1~
+@178=~Almusalil's Flame Blade +2~
+@179=~Almusalil's Flame Blade +3~
+@180=~Almusalil's Flame Blade +4~
+@1801=~Almusalil Flame Blade +4
+
+This flaming sword radiates a palpable aura. The sword appears in the hand of the Almusalil. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+The pact has granted you a higher power and now in addition to the powers of the Green Flame Blade, when hit by this sword, there is 33% chance that target will loose 1 strength, is stuned and 33% chance of restoring the wielder of 2d8 hit points.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to level drain effects
+ Immunity to fear effects
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+ Almusalil: Each successful hit has
+ 33% chance target suffers a -1 penalty to strength (save vs. death neg.), 
+ 33% chance target is stunned for 1 round (save vs. breath neg.)
+ 33% change to restore 2D8 HP to the Almusalil
+
+THAC0: +4 bonus
+Damage: 1D10 +4
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Almusalil~
+@181=~Almusalil's Flame Blade +5~
+@1811=~Almusalil Flame Blade +5
+
+This flaming sword radiates a palpable aura. The sword appears in the hand of the Almusalil. On a successful strike, the sword deals bonus damage to demons and undeads creatures.
+The pact has granted you a higher power and now in addition to the powers of the Green Flame Blade, when hit by this sword, there is 33% chance that target will loose 1 strength, is stuned and 33% chance of restoring the wielder of 2d8 hit points.
+
+STATISTICS:
+
+Equipped Abilities:
+ Immunity to level drain effects
+ Immunity to charm, confusion and fear effects
+ 
+Combat Abilities: 
+ Alsaahir: +1D10 bonus to damage against demons and undeads
+ Almusalil: Each successful hit has
+ 33% chance target suffers a -1 penalty to strength (save vs. death neg.), 
+ 33% chance target is stunned for 1 round (save vs. breath neg.)
+ 33% change to restore 2D8 HP to the Almusalil
+
+THAC0: +5 bonus
+Damage: 1D10 +5
+Damage Type: Slashing
+Weight: 4
+Speed Factor: 0
+Proficiency Type: Scimitar
+Type: One-Handed
+Requires: 6 Strength
+Usable By:
+ Almusalil~
 @182=~Magic Flute:
 
 This ability creates a magic flute made of pure magical energy. When played, the flute can be used to cast the following spells:
