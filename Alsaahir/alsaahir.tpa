@@ -133,14 +133,12 @@ COPY ~alsaahir/spl/TRDC010.SPL~ override                 // Resistances bonus 2 
 COPY ~alsaahir/spl/TRDC013.SPL~ override                 // Moudjahidine's Flame blade
 	  SAY NAME1 @155
 	  SAY 0x50 @156
-	  WRITE_ASCII 0x58 "CFLAM01" #8
 COPY ~alsaahir/spl/TRDC020.SPL~ override                 // Wisdom +1, AC +2 and +3 save vs death
 	  SAY NAME1 @163
 	  SAY 0x50 @164
 COPY ~alsaahir/spl/TRDC023.SPL~ override                 // Almusalil's Flame Blade
 	  SAY NAME1 @157
 	  SAY 0x50 @158
-	  WRITE_ASCII 0x58 "CFLAM01" #8
 COPY ~alsaahir/spl/TRDC024.SPL~ override                 // Almusalil's special Magical Flute
 	  SAY 0x50 @182
 

@@ -1,21 +1,35 @@
 BACKUP ~alsaahir\backup~
 AUTHOR ~TotoR~
-//MODDER
 
-VERSION ~vBETA_4.0~
+VERSION ~v1.0~
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+README ~alsaahir/Alsaahir-ReadMe.txt~                                           // Offer to display the readme
+
+ALWAYS
+  ACTION_DEFINE_ARRAY TR#reload BEGIN setup END
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charsets = 1
+    STR_VAR
+      tra_path = ~alsaahir/tra~
+      reload_array = TR#reload
+      default_language = ~English~
+  END
+END
+
+AUTO_TRA ~alsaahir/tra/%s~
 
 LANGUAGE ~English~
          ~english~
-         ~alsaahir\tra\eng\setup.tra~
+         ~alsaahir\tra\english\setup.tra~
 
 LANGUAGE ~Français~
          ~Français~
-         ~alsaahir\tra\fr\setup.tra~
+         ~alsaahir\tra\Français\setup.tra~
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
