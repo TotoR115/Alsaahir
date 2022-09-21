@@ -148,7 +148,7 @@ COPY_EXISTING ~TRDC024.SPL~ ~override/TRDC014.SPL~                    // Moudjah
 COPY_EXISTING ~TR#DCFLT.EFF~ ~override/TR#ACFLT.EFF~                  // Moudjahidine's special Magical Flute
 	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH "TR#DCFLT" "TR#ACFLT" (8)
 COPY_EXISTING ~TR#DC02.SPL~ ~override/TRDX013.SPL~                    // Moudjahidine's flame blade
-	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~TR#GFBL~ ~TR#VFBL~
+	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~TR#GFBL0~ ~TR#VFBL0~ (8)
 	  SAY NAME1 @155
 	  SAY 0x50 @156
 COPY_EXISTING ~spwi326.SPL~ ~override/TR#disp.SPL~                    // Dispel for Moudjahidine's sword
@@ -164,7 +164,7 @@ COPY_EXISTING ~spwi326.SPL~ ~override/TR#disp.SPL~                    // Dispel 
         WRITE_SHORT ("%abil_off%" + 0x26 + ("%index%" * 0x28)) "1"            			 // set projectile to none (1)
 	   END
 COPY_EXISTING ~TR#DC02.SPL~ ~override/TRDX023.SPL~                    // Almusalil's flame blade
-	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~TR#GFBL~ ~TR#DFBL~
+	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~TR#GFBL0~ ~TR#DFBL0~ (8)
 	  SAY NAME1 @157
 	  SAY 0x50 @158
 COPY_EXISTING ~TR#DC08.SPL~ ~override/TR#DC09.SPL~                 	  // +6 hit and damages vs demons and undead
