@@ -34,7 +34,7 @@ EXTEND_BOTTOM ~baldur25.bcs~ ~alsaahir/baf/wis_spell.baf~ EVALUATE_BUFFER
 ///// New spells
 ////////////////
 
-COPY ~alsaahir/spl/TR#DC01.SPL~ override                 // Demon Hunter new song part 1
+COPY ~alsaahir/spl/TR#DC01.SPL~ override                 // alsaahir new song part 1
 	SAY NAME1 @154
 COPY ~alsaahir/spl/TR#DC02.SPL~ override                 // green flame blade
 	SAY NAME1 @166
@@ -44,11 +44,11 @@ COPY ~alsaahir/spl/TR#DC07.SPL~ override                 // resistances part 1
 COPY ~alsaahir/spl/TR#DC05.SPL~ override                 // 1/2 attack bonus
      ~alsaahir/spl/TR#DC08.SPL~ override                 // +3 hit and damages vs demons and undead
      ~alsaahir/spl/TR#DC09.SPL~ override                 // +6 hit and damages vs demons and undead
-     ~alsaahir/spl/TR#DCS01.SPL~ override                // Demon Hunter song
-	 ~alsaahir/spl/TR#DCS02.eff~ override                // Demon Hunter song (Ennemy)
-	 ~alsaahir/spl/TR#DCS03.eff~ override                // Demon Hunter song (Ally)
-     ~alsaahir/spl/TR#DCS02.SPL~ override                // Demon Hunter song (Ennemy)
-     ~alsaahir/spl/TR#DCS03.SPL~ override                // Demon Hunter song (Ally)
+     ~alsaahir/spl/TR#DCS01.SPL~ override                // alsaahir song part 2
+	 ~alsaahir/spl/TR#DCS02.eff~ override                // alsaahir song (Ennemy)
+	 ~alsaahir/spl/TR#DCS03.eff~ override                // alsaahir song (Ally)
+     ~alsaahir/spl/TR#DCS02.SPL~ override                // alsaahir song (Ennemy)
+     ~alsaahir/spl/TR#DCS03.SPL~ override                // alsaahir song (Ally)
      ~alsaahir/spl/TR#DCP1.SPL~ override                 // Pick Pocket penality
      ~alsaahir/spl/TR#DCP2.SPL~ override                 // Pick Pocket penality
      ~alsaahir/spl/TR#DCP3.SPL~ override                 // Pick Pocket penality
@@ -199,7 +199,7 @@ COPY ~alsaahir/spl/Tr#gfbth.spl~ ~override~              // Fire breath spell (G
   READ_LONG  0x64 ab_off 
   READ_SHORT 0x68 ab_num
   FOR(i=0; i<ab_num; i+=1) BEGIN
-    WRITE_SHORT (ab_off+i*0x28+0x26) ~%Tr#gfbth%~                      // use new projectile (Guardian)
+    WRITE_SHORT (ab_off+i*0x28+0x26) ~%Tr#gfbth%~        // use new projectile (Guardian)
   END
 
 COPY ~alsaahir/spl/TR#DCDIS.SPL~ override                // displacement (Deceiver version)
