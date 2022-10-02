@@ -6,15 +6,15 @@ Languagues: English and French
 
 ## **I. Introduction:**
 
-I created this kit to have a different feeling of bards, with some touch of oriental myth mixed with Adnd. 
+I created this kit to create a different feeling with bards: some touch of oriental myth mixed with Adnd. 
 
 This kit was created with two things in mind:
 - Wisdom is useless for bards -> make it usefull
-- They are poor fighters and can't wear armor and casts spells at the same times, making them less protected than mages and thieves in BG1 -> give them some natural resistance and more fighting skills.
+- They are poor fighters and can't wear armor and casts spells at the same times, they are less protected than mages and thieves in BG1 -> give them some natural resistance and more fighting skills.
 
 with this kit, more Wisdom give you more spells and you can mastering (***) some weapons at the cost of the bard's natural versatility in weapons. 
 
-At creation, You will now choose if you want to go more towards fighter (constitutuion but less spells) or wizard (wisdom but less hp).
+Now choose if you want to go more towards fighter (constitutuion) or wizard (wisdom).
 
 ## **II. The Kit**
 
@@ -62,7 +62,7 @@ I usually install Kit mods after mods that have new spells.
 
 ## **IV. Credits and thanks:**
 
-A whole community wich survive more than 20 years... and specially **the bigg** for the lib that allow have more spells with wisdom.
+A whole community wich survive more than 20 years... and specially **the bigg** for the lib that allow me to add more spells with wisdom.
 
 ## **V. Version History:**
 
