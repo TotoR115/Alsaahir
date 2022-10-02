@@ -44,7 +44,6 @@ COPY ~alsaahir/spl/TR#DC07.SPL~ override                 // resistances part 1
 COPY ~alsaahir/spl/TR#DC05.SPL~ override                 // 1/2 attack bonus
      ~alsaahir/spl/TR#DC08.SPL~ override                 // +3 hit and damages vs demons and undead
      ~alsaahir/spl/TR#DC09.SPL~ override                 // +6 hit and damages vs demons and undead
-     ~alsaahir/spl/TR#DCS01.SPL~ override                // alsaahir song part 2
 	 ~alsaahir/spl/TR#DCS02.eff~ override                // alsaahir song (Ennemy)
 	 ~alsaahir/spl/TR#DCS03.eff~ override                // alsaahir song (Ally)
      ~alsaahir/spl/TR#DCS02.SPL~ override                // alsaahir song (Ennemy)
@@ -71,6 +70,13 @@ COPY ~alsaahir/spl/TR#DC05.SPL~ override                 // 1/2 attack bonus
      ~alsaahir/spl/TR#heal.SPL~ override                 // 2d8 heal
      ~alsaahir/spl/TR#stun.SPL~ override                 // stun
 	 ~alsaahir/spl/TR#DMG0.EFF~ override                 // 1d10 dmg
+ADD_PROJECTILE ~alsaahir/spl/Tr#dcsng.pro~               // song area of effect
+COPY ~alsaahir/spl/Tr#dcs01.spl~ ~override~              // alsaahir song part 2
+  READ_LONG  0x64 ab_off 
+  READ_SHORT 0x68 ab_num
+  FOR(i=0; i<ab_num; i+=1) BEGIN
+    WRITE_SHORT (ab_off+i*0x28+0x26) ~%Tr#dcsng%~        // use new projectile
+  END
 COPY_EXISTING ~SPWI702.SPL~ ~override/TRDC011.spl~  	 // Protection from the elements
   READ_LONG  0x64 "abil_off"
   READ_SHORT 0x68 "abil_num"
@@ -148,7 +154,7 @@ COPY_EXISTING ~TRDC024.SPL~ ~override/TRDC014.SPL~                    // Moudjah
 COPY_EXISTING ~TR#DCFLT.EFF~ ~override/TR#ACFLT.EFF~                  // Moudjahidine's special Magical Flute
 	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH "TR#DCFLT" "TR#ACFLT" (8)
 COPY_EXISTING ~TR#DC02.SPL~ ~override/TRDX013.SPL~                    // Moudjahidine's flame blade
-	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~TR#GFBL0~ ~TR#VFBL0~ (8)
+	  REPLACE_TEXTUALLY CASE_INSENSITIVE ~TR#GFBL~ ~TR#VFBL~
 	  SAY NAME1 @155
 	  SAY 0x50 @156
 COPY_EXISTING ~spwi326.SPL~ ~override/TR#disp.SPL~                    // Dispel for Moudjahidine's sword
@@ -164,7 +170,7 @@ COPY_EXISTING ~spwi326.SPL~ ~override/TR#disp.SPL~                    // Dispel 
         WRITE_SHORT ("%abil_off%" + 0x26 + ("%index%" * 0x28)) "1"            			 // set projectile to none (1)
 	   END
 COPY_EXISTING ~TR#DC02.SPL~ ~override/TRDX023.SPL~                    // Almusalil's flame blade
-	  REPLACE_TEXTUALLY CASE_INSENSITIVE EXACT_MATCH ~TR#GFBL0~ ~TR#DFBL0~ (8)
+	  REPLACE_TEXTUALLY CASE_INSENSITIVE ~TR#GFBL~ ~TR#DFBL~
 	  SAY NAME1 @157
 	  SAY 0x50 @158
 COPY_EXISTING ~TR#DC08.SPL~ ~override/TR#DC09.SPL~                 	  // +6 hit and damages vs demons and undead
@@ -239,7 +245,8 @@ COPY ~alsaahir/itm/TR#GFBL5.ITM~ override 				  // Green Flame Blade lv25
 
 COPY_EXISTING ~TR#DCFLT.ITM~ ~override/TR#ACFLT.ITM~      // Alsaahir special Magical Flute
 	  LPF ALTER_EFFECT INT_VAR match_opcode = 146 STR_VAR match_resource = "TR#DCDCV" resource = "TR#DCGRD" END
-
+COPY_EXISTING ~TR#GFBL0.ITM~ "override/TR#VFBL0.ITM" 	  // juste in case
+COPY_EXISTING ~TR#GFBL0.ITM~ "override/TR#DFBL0.ITM" 	  // juste in case
 COPY_EXISTING ~TR#GFBL0.ITM~ "override/TR#GFBL1.ITM" 	  // Green Flame Blade lv5
 	  SAY NAME2 @167
 	  SAY DESC @1671
