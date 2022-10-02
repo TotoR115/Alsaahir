@@ -6,7 +6,7 @@ Languagues: English and French
 
 ## **I. Introduction:**
 
-I created this kit to create a different feeling with bards: some touch of oriental myth mixed with Adnd. 
+I created this kit to add a different feeling with bards: some touch of oriental myth mixed with Adnd. 
 
 This kit was created with two things in mind:
 - Wisdom is useless for bards -> make it usefull
