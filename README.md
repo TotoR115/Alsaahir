@@ -57,6 +57,23 @@ At will, You and all of his gear become insubstantial and are subject only to ma
 -  At level 10, gains protection against +1 wepons and 35% of magic resistance bonus
 -  At level 20, gains protection against +2 wepons and 45% of magic resistance bonus
 
+#### HLA:
+
+This kit will have to choose between two style with HLA :
+
+###### Moudjahidine :
+- You gain 10% resitance to slashing, piercing, crushing, acid, fire and magical damages, +3 to thac0 and save vs breath
+- Protection from the elements as ability
+- Improved Mantle as ability
+- Moudjahidine's special Magical Flute : can summon a guardian Genie, can cast Bolt of Glory (3) and Limited Wish
+
+###### Almusalil :
+- you gain +1 bonus to wisdom, +2 to AC and +3 save vs death
+- Project Image as ability
+- Nature Beaty as ability
+- Moudjahidine's special Magical Flute : can summon a Deceiver Genie, can cast Bolt of Glory (3) and Limited Wish
+ 
+
 ## **III. How and when should this mod be installed:**
 
 This mod should be installed just like all other WeiDU mods. Unzip the mod to the Main Directory of Baldur's Gate 2. Then, run the Setup-Alsaahir.exe file. After doing this, you will be asked about the installation of the mod.
