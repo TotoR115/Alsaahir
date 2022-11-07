@@ -12,7 +12,7 @@ Avantages :
 -  Au niveau 3 et 13 : +3 au toucher et au dommage contre les démons et mort-vivants
 -  Au niveau 5 et 15 : +5% de résistance aux dégâts tranchants, perforants, contondants, acides, de feu et magiques
 -  +1/2 attaque au niveau 8
--  Peut atteindre la maîtrise avec les dagues, les Cimeterres et les Masses d'arme
+-  Peut atteindre la maîtrise avec les dagues, les cimeterres et les masses d'arme
 -  Comme un illusionniste, lance/résiste mieux aux sorts d'illusions avec -2/+2 aux jets
 -  La connaissance est une arme. A la façon d'un clerc, la sagesse augmente le nombre de sorts par niveau
 
@@ -38,7 +38,7 @@ le lanceur et tout son équipement deviennent intangibles, ne peut être blessé qu
 -  Au niveau 10, protège contre les armes magiques +1 et octroie +35% de résistance à la magie
 -  Au niveau 20, protège contre les armes magiques +2 et octroie +45% de résistance à la magie~
 
-@153=~Aura de feu vert
+@153=~Aura de flame verte
 (Evocation, Altération)
 Niveau : 7
 Portée : 0
@@ -50,17 +50,38 @@ Jet de sauvegarde : non
 Le long travail sur les démons, a permis à l'Alsaahir de développer une aura de flammes verte qui blesse ses adversaires et le protège de leurs coups. Non seulement ce bouclier de flammes octroie une résistance à l'acide de 50%, aux poisons et un bonus de +2 à la CA mais il le protège également de toutes les attaques provenant d'une distance maximale de 2 m autour de lui. Tout adversaire qui le frappe, que ce soit à l'aide d'une arme ou d'un sort, depuis l'intérieur de ce périmètre subit 1D10+4 points de dégâts d'acide. De plus, l'intense chaleur immunise contre les dégâts des armes et missiles non-magiques.~
 @154=~Chant d' Alsaahir~
 @155=~L'épée enflammée du Moudjahidine~
-@156=~L'épée enflammée du Moudjahidine :
+@156=~L'épée enflammée du Moudjahidine (Evocation)
+Portée : 0
+Durée : 4 rounds + 1 round par 2 niveaux 
+Temps d'incantation : 4 round
+Zone d'effet : Lanceur
+Jet de sauvegarde : Aucun 
 
-Le pacte vous a apporté de nouveau pouvoirs et peut maintenant invoquer une épée enflammée du Moudjahidine au lieu de l'épée verte enflammée. En plus des pouvoirs de l'épée verte enflammée, chaque attaque donne 15% de chance de tuer la cible. Dans tous les cas la cible subie 3d8 dommage et chaque attaque réussie peut dissiper la magie.
--  Ce sort dure 4 rounds + 1 round par 2 niveau, jusqu'à 20 rounds, l'épée protège contre la peur et les plans d'énergie négative
--  Au niveau 25, l'épée protège aussi contre les charmes et la confusion.~
+En utilisant cette capacité, l'Almusalil conjure une épée enflammée. Cette arme inflige 1d10 de dommage tranchant, et 1d10 de dommage supplémentaires aux démons et mort-vivants. A chaque chaque coup porté à la cible :
+-  15 % de chance que la décapitée (jet de sauvegarde contre la mort à -2 pour éviter) ou subir 3D8 de dommage Tranchant
+- annule tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour éviter)
+
+Cette lame est non-magic du niveau 1 à 4, as un enchantement +1 du niveau 5 à 9, +2 du niveau 10 à 14, +3 du niveau 15 à 19, +4 du niveau 20 à 24 et +5 au niveau 25 et suppérieure. 
+-  Au niveau 15, l'épée protège contre la peur
+-  Au niveau 20, l'épée protège contre la peur et les plans d'énergie négative 
+-  Au niveau 25, l'épée protège contre la peur, les plans d'énergie négative, les charmes et la confusion.~
 @157=~L'épée enflammée de l'Almusalil~
-@158=~L'épée enflammée de l'Almusalil :
+@158=~L'épée enflammée de l'Almusalil (Evocation)
+Portée : 0
+Durée : 4 rounds + 1 round par 2 niveaux 
+Temps d'incantation : 4 round
+Zone d'effet : Lanceur
+Jet de sauvegarde : Aucun 
 
-Le pacte vous a apporté de nouveau pouvoirs et peut maintenant invoquer une épée enflammée du Almusalil au lieu de l'épée verte enflammée. En plus des pouvoirs de l'épée verte enflammée, chaque attaque a 33% de chance de diminuer de 1 point la force de la cible, de l'étourdir et 33% de chance de restorer la vie de l'Almusalil de 2d8 PV.
--  Ce sort dure 4 rounds + 1 round par 2 niveau, jusqu'à 20 rounds, l'épée protège contre la peur et les plans d'énergie négative.
--  Au niveau 25, l'épée protège aussi contre les charmes et la confusion.~
+En utilisant cette capacité, l'Almusalil conjure une épée enflammée. Cette arme inflige 1d10 de dommage tranchant, et 1d10 de dommage supplémentaires aux démons et mort-vivants. A chaque chaque coup porté à la cible :
+-  33% de chance de lui applique un malus de -1 à la force (jet de sauvegarde contre la mort pour éviter), 
+-  33% de chance de l'étourdir (jet de sauvegarde contre le souffle pour éviter),
+-  33% de chance de restorer 2d8 PV à l'Almusalil.
+
+Cette lame est non-magic du niveau 1 à 4, as un enchantement +1 du niveau 5 à 9, +2 du niveau 10 à 14, +3 du niveau 15 à 19, +4 du niveau 20 à 24 et +5 au niveau 25 et suppérieure. 
+-  Au niveau 15, l'épée protège contre la peur
+-  Au niveau 20, l'épée protège contre la peur et les plans d'énergie négative 
+-  Au niveau 25, l'épée protège contre la peur, les plans d'énergie négative, les charmes et la confusion.~
 @159=~stairway to heaven~
 @160=~stairway to heaven:
 
@@ -306,10 +327,10 @@ Capacités d'équipement :
 
 Capacités de combat :
  Alsaahir: +1D10 de dégats aux démons et morts-vivants
- Almusalil : à chaque chaque coup porté à la cible
- 33% de chance de lui applique un malus de -1 à la force (jet de sauvegarde contre la mort pour éviter), 
- 33% de chance de l'étourdir (jet de sauvegarde contre le souffle pour éviter),
- 33% de chance de restorer 2d8 PV à l'Almusalil.
+ Almusalil : à chaque chaque coup porté à la cible :
+-  33% de chance de lui applique un malus de -1 à la force (jet de sauvegarde contre la mort pour éviter), 
+-  33% de chance de l'étourdir (jet de sauvegarde contre le souffle pour éviter),
+-  33% de chance de restorer 2d8 PV à l'Almusalil.
 
 TAC0: +5 bonus
 Dégâts: 1D10 +5
@@ -331,10 +352,14 @@ Convoque le Gardien - 1 charge
 Ces capacités s'utilisent comme avec une baguette magique. La flûte dure 1 journée.~
 @183=~Votre résistance a augmentée~
 @184=~Aura de flame verte~
-@185=~Epée verte enflammée :
+@185=~Epée verte enflammée (Evocation)
+Portée : 0
+Durée : 4 rounds + 1 round par 2 niveaux 
+Temps d'incantation : 4 round
+Zone d'effet : Lanceur
+Jet de sauvegarde : Aucun 
 
 En utilisant cette capacité, l'Alsaahir conjure une épée verte enflammée. Cette arme inflige 1d10 de dommage tranchant, et 1d10 de dommage supplémentaires aux démons et mort-vivants, est non-magic du niveau 1 à 4, as un enchantement +1 du niveau 5 à 9, +2 du niveau 10 à 14, +3 du niveau 15 à 19, +4 du niveau 20 à 24 et +5 au niveau 25 et suppérieure. 
--  Ce sort dure 4 rounds + 1 round par 2 niveaux, jusqu'à 20 rounds
 -  Au niveau 15, l'épée protège contre la peur
 -  Au niveau 20, l'épée protège contre la peur et les plans d'énergie négative 
 -  Au niveau 25, l'épée protège contre la peur, les plans d'énergie négative, les charmes et la confusion.~
@@ -380,8 +405,8 @@ Zone d'effet : Spéciale
 Jet de sauvegarde : Non 
 
 Ce sort convainc un Gardien, un génie énorme aux pouvoirs puissants, de quitter le Plan Elémentaire pour venir servir. Le Gardien sera au service du Moudjahidine pour la durée du sort et attaquera les ennemis.~
-@194=~Summon Dissimulateur~
-@195=~Summon Dissimulateur (Conjuration/convocation)
+@194=~Convocation du Dissimulateur~
+@195=~Convocation du Dissimulateur (Conjuration/convocation)
 
 Portée : 40 mètres
 Durée : 8 Rounds + 1 round/niveau

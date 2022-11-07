@@ -25,11 +25,11 @@ AUTO_TRA ~alsaahir/tra/%s~
 
 LANGUAGE ~English~
          ~english~
-         ~alsaahir\tra\english\setup.tra~
+         ~alsaahir\tra\eng\setup.tra~
 
 LANGUAGE ~Français~
          ~Français~
-         ~alsaahir\tra\Français\setup.tra~
+         ~alsaahir\tra\fr\setup.tra~
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\

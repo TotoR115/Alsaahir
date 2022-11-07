@@ -38,7 +38,7 @@ At will, You and all of his gear become insubstantial and are subject only to ma
 -  At level 10, gains protection against +1 wepons and 35% of magic resistance bonus
 -  At level 20, gains protection against +2 wepons and 45% of magic resistance bonus~
 /*~
-At Level 1, the demon charmer regenerate himself for 1 hit point per 2 seconds and inflicts 1 point of damage to all allies within sight. 
+At Level 1, the demon charmer regenerate himself for 1 hit point per 2 seconds and inflicts 1 point of damage to all allies within sight
 At level 7, the demon charmer regenerate himself for 1 hit point per second and inflicts 1 points of damage to all allies within sight
 At level 13, the demon charmer regenerate himself for 2 hit point per seconds and inflicts 2 points of damage to all allies within sight
 At level 19, the demon charmer regenerate himself for 3 hit point per seconds and inflicts 2 points of damage to all allies within sight
@@ -56,17 +56,44 @@ Saving Throw: None
 Long studies of demon's arcane have granted the alsaahir the ability to be enveloped by a green flaming barrier that both injures opponents and protects from damage. This barrier not only grants the user 50% Acids and Poison resistance and an AC bonus of 2, but also protects the caster from attacks made within a 5' radius around the caster.  An opponent that hits the caster with any weapons or spells within this radius suffers 1D10 +4 Acid damage. In addition, the intense heat protects the caster from all non-magical weapons, melee or missile.~
 @154=~Alsaahir'song~
 @155=~Moudjahidine's Flame Blade~
-@156=~Moudjahidine's Flame Blade:
+@156=~Moudjahidine's Flame Blade (Evocation)
+Range: 0
+Duration: 4 rounds + 1 round per 2 levels, up to 20 rounds
+Casting Time: 4
+Area of Effect: The caster
+Saving Throw: None
 
-The pact has granted you a higher power and you will now conjure a Moudjahidine's Flame Blade instead of the Green Flame Blade. In addition to the powers of the Green Flame Blade, when hit by this sword, there is 15% chance that the target dies (vorpal effect: save vs. death at -2 or 3D8 slashing damage). In addition, dispels Magic at the wielder's level of experience with every strike~
+The pact has granted you a higher power and you will now conjure a Moudjahidine's Flame Blade instead of the Green Flame Blade. This weapon deals 1d10 salshing damage, deals 1D10 damages to fiends and undeads. 
+Each successful hit : 
+-  has 15% chance target dies (save vs. death at -2 penalty neg.) or takes 3D8 Slashing damage
+-  Removes all magical effects from the target (save vs. spell neg.)
+
+The blade is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above.
+At level 15, the blade provides immunity to fear
+At level 20, the blade provides immunity to fear and negative plane
+At level 25, the blade provides immunity to fear, negative plane and charms and confusion~
 @157=~Almusalil's Flame Blade~
-@158=~Almusalil's Flame blade:
+@158=~Almusalil's Flame blade (Evocation)
+Range: 0
+Duration: 4 rounds + 1 round per 2 levels, up to 20 rounds
+Casting Time: 4
+Area of Effect: The caster
+Saving Throw: None
 
-The pact has granted you a higher power and you will now conjure a Almusalil's Flame Blade instead of the Green Flame Blade. In addition to the powers of the Green Flame Blade, when hit by this sword, there is 33% chance that target will loose 1 strength, is stuned and 33% chance of restoring the wielder of 2d8 hit points.~
+The pact has granted you a higher power and you will now conjure a Almusalil's Flame Blade instead of the Green Flame Blade. This weapon deals 1d10 salshing damage, deals 1D10 damages to fiends and undeads. 
+Each successful hit has : 
+-  33% chance target suffers a -1 penalty to strength (save vs. death neg.),
+-  33% chance target is stunned for 1 round (save vs. breath neg.)
+-  33% change to restore 2D8 HP to the Almusalil
+
+The blade is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above.
+At level 15, the blade provides immunity to fear
+At level 20, the blade provides immunity to fear and negative plane
+At level 25, the blade provides immunity to fear, negative plane and charms and confusion~
 @159=~stairway to heaven~
 @160=~stairway to heaven:
 
-Your prefere a fight than illusion, you are a Moudjahidine. You have made a pact with an extraplanar creature to gain more powers. You gain 10% resitance to slashing, piercing, crushing, acid, fire and magical damages, +3 to thac0 and save vs breath~
+Your prefere a good fight than using illusion, you are a Moudjahidine. You have made a pact with an extraplanar creature to gain more powers. You gain 10% resitance to slashing, piercing, crushing, acid, fire and magical damages, +3 to thac0 and save vs breath~
 @161=~Stronger Pact~
 @162=~Stronger Pact:
 your gain +1 to damage, +1 to wisdom and +30 to HP~
@@ -335,13 +362,18 @@ The spell-like abilities on the Flute are used in the same way that a wand's pow
 ~
 @183=~Your resistences have increase~
 @184=~Green Flaming Barrier~
-@185=~Green Flame Blade:
+@185=~Green Flame Blade (Evocation)
+ 
+Range: 0
+Duration: 4 rounds + 1 round per 2 levels, up to 20 rounds
+Casting Time: 4
+Area of Effect: The caster
+Saving Throw: None
 
-Upon casting this ability, the alsaahir conjure a Green Flame Blade. This weapon deals 1d10 salshing damage, deals double damages to fiends and undead, is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above. The green Flame Blade lasts for 4 rounds + 1 round per 2 levels, up to 20 rounds.
+Upon casting this ability, the alsaahir conjure a Green Flame Blade. This weapon deals 1d10 salshing damage, deals double damages to fiends and undead, is non-magical at levels 1-4, has +1 enchantment at levels 5-9, +2 at 10-14, +3 at 15-19, +4 at 20-24, and +5 at levels 25 and above. The green Flame Blade lasts for .
 At level 15, the blade provides immunity to fear
 At level 20, the blade provides immunity to fear and negative plane
-At level 25, the blade provides immunity to fear, negative plane and charms and confusion
-~
+At level 25, the blade provides immunity to fear, negative plane and charms and confusion~
 @186=~Displacement~
 @187=~Displacement (Illusion/Phantasm)
  
