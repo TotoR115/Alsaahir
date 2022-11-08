@@ -13,11 +13,11 @@ ALWAYS
   ACTION_DEFINE_ARRAY TR#reload BEGIN setup END
   LAF HANDLE_CHARSETS
     INT_VAR
-      infer_charsets = 1
+	  infer_charsets = 1
     STR_VAR
       tra_path = ~alsaahir/tra~
       reload_array = TR#reload
-      default_language = ~English~
+      default_language = ~english~
   END
 END
 
@@ -25,11 +25,11 @@ AUTO_TRA ~alsaahir/tra/%s~
 
 LANGUAGE ~English~
          ~english~
-         ~alsaahir\tra\eng\setup.tra~
+         ~alsaahir\tra\english\setup.tra~
 
 LANGUAGE ~Français~
-         ~Français~
-         ~alsaahir\tra\fr\setup.tra~
+         ~french~
+         ~alsaahir\tra\french\setup.tra~
 
 //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\\\
 ////\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
