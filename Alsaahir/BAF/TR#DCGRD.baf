@@ -48,7 +48,7 @@ IF
     !GlobalTimerNotExpired("TR#Cast","LOCALS")
     !StateCheck(Myself,STATE_INVISIBLE)
 	Detect([EVILCUTOFF])
-    !CheckStatGT(Myself,0,CLERIC_BLADE_BARRIER)
+    // !CheckStatGT(Myself,0,CLERIC_BLADE_BARRIER)
     HaveSpell(CLERIC_BLADE_BARRIER)
 THEN
     RESPONSE #100
@@ -65,7 +65,7 @@ IF
 	CheckStatLT(Myself,60,SPELLFAILUREPRIEST)
 	See([ENEMY])
 	!CheckStatGT([ENEMY],99,RESISTMAGIC)
-	!CheckStat([ENEMY],2,WIZARD_SPELL_IMMUNITY)
+	// !CheckStat([ENEMY],2,WIZARD_SPELL_IMMUNITY)
 	Allegiance(Myself,ALLY)
 	!Allegiance([ENEMY],ENEMY)
 	!StateCheck([ENEMY],STATE_IMMOBILE)
