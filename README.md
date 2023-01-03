@@ -1,6 +1,6 @@
 # **Alsaahir kit for BG2**
 
-Version: 1.0  
+Version: 4.0  
 Author: TotoR   
 Languagues: English and French
 
