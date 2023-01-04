@@ -1,430 +1,430 @@
 @0=~Alsaahir, un kit pour barde~
-@1=~Ce mod nécessite le moteur IE de oBG2 ou BG2EE.~
+@1=~Ce mod nÃ©cessite le moteur IE de oBG2 ou BG2EE.~
 
 @150=~alsaahir~
 @151=~Alsaahir~
-@152=~ALSAAHIR : A la façon d'un charmeur de serpent, ce barde a étudié la sensibilité aux vibrations des démons et morts-vivants. Mais, s'entraîner avec de tels êtres est dangereux et ceux qui survivent ne reviennent jamais indemne, physiquement et mentalement. Cette voie nécessite sagesse, maîtrise des arts de l'illusions et des capacités de combattant, aux dépens de la dextérité naturelle et de la polyvalence des bardes
+@152=~ALSAAHIR : A la faÃ§on d'un charmeur de serpent, ce barde a Ã©tudiÃ© la sensibilitÃ© aux vibrations des dÃ©mons et morts-vivants. Mais, s'entraÃ®ner avec de tels Ãªtres est dangereux et ceux qui survivent ne reviennent jamais indemne, physiquement et mentalement. Cette voie nÃ©cessite sagesse, maÃ®trise des arts de l'illusions et des capacitÃ©s de combattant, aux dÃ©pens de la dextÃ©ritÃ© naturelle et de la polyvalence des bardes
 
 Avantages :
 -  Chant des Alsaahirs
--  Au niveau 1, peut invoquer, une fois par jour, l'épée verte enflammée. Gagne une utilisation supplémentaire au niveau 10 et 20
+-  Au niveau 1, peut invoquer, une fois par jour, l'Ã©pÃ©e verte enflammÃ©e. Gagne une utilisation supplÃ©mentaire au niveau 10 et 20
 -  Au niveau 1, peut utiliser Forme Ectoplasmique
--  Au niveau 3 et 13 : +3 au toucher et aux dégats contre les démons et morts-vivants
--  Au niveau 5 et 15 : +5% de résistance aux dégâts tranchants, perforants, contondants, acides, de feu et magiques
--  1/2 attaque supplémentaire au niveau 8
--  Peut atteindre la maîtrise avec les dagues, les cimeterres et les masses d'arme
--  Comme un illusionniste, il lance et résiste mieux aux sorts de l'école d'illusion
--  La connaissance est une arme; a la façon d'un clerc, la sagesse augmente le nombre de sorts par niveau
+-  Au niveau 3 et 13 : +3 au toucher et aux dÃ©gats contre les dÃ©mons et morts-vivants
+-  Au niveau 5 et 15 : +5% de rÃ©sistance aux dÃ©gÃ¢ts tranchants, perforants, contondants, acides, de feu et magiques
+-  1/2 attaque supplÃ©mentaire au niveau 8
+-  Peut atteindre la maÃ®trise avec les dagues, les cimeterres et les masses d'arme
+-  Comme un illusionniste, il lance et rÃ©siste mieux aux sorts de l'Ã©cole d'illusion
+-  La connaissance est une arme; a la faÃ§on d'un clerc, la sagesse augmente le nombre de sorts par niveau
 
-Inconvénients :
--  As la moitié en connaissance et vol
--  Ne peux devenir compétent qu'avec les dagues, cimeterres et les masses et ne peux investir dans le style à deux armes
--  Ne peux lancer de sorts de l'école de Nécromancie
+InconvÃ©nients :
+-  As la moitiÃ© en connaissance et vol
+-  Ne peux devenir compÃ©tent qu'avec les dagues, cimeterres et les masses et ne peux investir dans le style Ã  deux armes
+-  Ne peux lancer de sorts de l'Ã©cole de NÃ©cromancie
 -  Dispose d'un sort de moins par niveau
 -  Alignement chaotique
 
 CHANT DES ALSAAHIRS :
--  Au niveau 1, les alliés gagnent +2 au toucher et aux dégâts contre démons et morts-vivants. Les jets de sauvegarde des démons et morts-vivants sont dimunés de 1
--  Au niveau 7, les alliés gagnent +3 au toucher et aux dégâts contre démons et morts-vivants et sont immunisés contre la peur. Les jets de sauvegarde des démons et morts-vivants sont dimunés de 1 et leur résistance à la magie de 5%
--  Au niveau 13, les alliés gagnent +4 au toucher et aux dégâts contre démons et morts-vivants, sont immunisés contre la peur et protégés contre les démons et morts-vivants. Les jets de sauvegarde des démons et morts-vivants sont dimunés de 2 et leur résistance à la magie de 10%
--  Au niveau 19, les alliés gagnent +5 au toucher et aux dégâts contre démons et morts-vivants, sont immunisés contre la peur, protégés contre les démons et morts-vivants et voient leur résistance aux dégâts de feu augmenter de 10%. Les jets de sauvegarde des démons et morts-vivants sont dimunés de 2 et leur résistance à la magie de 15%
+-  Au niveau 1, les alliÃ©s gagnent +2 au toucher et aux dÃ©gÃ¢ts contre dÃ©mons et morts-vivants. Les jets de sauvegarde des dÃ©mons et morts-vivants sont dimunÃ©s de 1
+-  Au niveau 7, les alliÃ©s gagnent +3 au toucher et aux dÃ©gÃ¢ts contre dÃ©mons et morts-vivants et sont immunisÃ©s contre la peur. Les jets de sauvegarde des dÃ©mons et morts-vivants sont dimunÃ©s de 1 et leur rÃ©sistance Ã  la magie de 5%
+-  Au niveau 13, les alliÃ©s gagnent +4 au toucher et aux dÃ©gÃ¢ts contre dÃ©mons et morts-vivants, sont immunisÃ©s contre la peur et protÃ©gÃ©s contre les dÃ©mons et morts-vivants. Les jets de sauvegarde des dÃ©mons et morts-vivants sont dimunÃ©s de 2 et leur rÃ©sistance Ã  la magie de 10%
+-  Au niveau 19, les alliÃ©s gagnent +5 au toucher et aux dÃ©gÃ¢ts contre dÃ©mons et morts-vivants, sont immunisÃ©s contre la peur, protÃ©gÃ©s contre les dÃ©mons et morts-vivants et voient leur rÃ©sistance aux dÃ©gÃ¢ts de feu augmenter de 10%. Les jets de sauvegarde des dÃ©mons et morts-vivants sont dimunÃ©s de 2 et leur rÃ©sistance Ã  la magie de 15%
 
-ÉPÉE VERTE ENFLAMMÉE :
-1d10 de dégâts tranchant + 1d10 dégâts aux démons et morts-vivants, est non-magique du niveau 1 à 4, a un enchantement +1 des niveaux 5 à 9, +2 de 10 à 14, +3 de 15 à 19, +4 de 20 à 24 et +5 au niveau 25+. Ce sort dure 4 rounds + 1 round par 2 niveaux (20 rounds maximum)
--  Au niveau 15, l'épée protège contre la peur, au niveau 20 contre le plan négatif et au niveau 25 contre les charmes et la confusion
+Ã‰PÃ‰E VERTE ENFLAMMÃ‰E :
+1d10 de dÃ©gÃ¢ts tranchant + 1d10 dÃ©gÃ¢ts aux dÃ©mons et morts-vivants, est non-magique du niveau 1 Ã  4, a un enchantement +1 des niveaux 5 Ã  9, +2 de 10 Ã  14, +3 de 15 Ã  19, +4 de 20 Ã  24 et +5 au niveau 25+. Ce sort dure 4 rounds + 1 round par 2 niveaux (20 rounds maximum)
+-  Au niveau 15, l'Ã©pÃ©e protÃ¨ge contre la peur, au niveau 20 contre le plan nÃ©gatif et au niveau 25 contre les charmes et la confusion
 
 FORME ECTOPLASMIQUE :
-le lanceur et tout son équipement deviennent intangibles, il peut être blessé que par des attaques magiques, gagne 25% de résistance à la magie. le lanceur ne peut attaquer ou lancer des sorts. Une dissipation de la magie réussie force le magicien à reprendre sa forme normale
--  Au niveau 10, protège contre les armes +1 et octroie +35% de résistance à la magie
--  Au niveau 20, protège contre les armes +2 et octroie +45% de résistance à la magie~
+le lanceur et tout son Ã©quipement deviennent intangibles, il peut Ãªtre blessÃ© que par des attaques magiques, gagne 25% de rÃ©sistance Ã  la magie. le lanceur ne peut attaquer ou lancer des sorts. Une dissipation de la magie rÃ©ussie force le magicien Ã  reprendre sa forme normale
+-  Au niveau 10, protÃ¨ge contre les armes +1 et octroie +35% de rÃ©sistance Ã  la magie
+-  Au niveau 20, protÃ¨ge contre les armes +2 et octroie +45% de rÃ©sistance Ã  la magie~
 
 @153=~Aura de flammes vertes
-(Évocation, Altération)
+(Ã‰vocation, AltÃ©ration)
 
 Niveau : 7
-Portée : 0
-Durée : 1 round / 2 niveaux
+PortÃ©e : 0
+DurÃ©e : 1 round / 2 niveaux
 Temps d'incantation : 4
 Zone d'effet : le lanceur
 Jet de sauvegarde : non
 
-Le long travail sur les démons, a permis à l'Alsaahir de développer une aura de flammes vertes qui blesse ses adversaires et le protège de leurs coups. Ce bouclier de flammes octroie une résistance de 50% à l'acide et aux poisons ainsi qu'un bonus de 2 à la Classe d'armure. Il le protège également de toutes les attaques provenant d'une distance maximale de 2 m autour de lui. Tout adversaire qui le frappe, que ce soit à l'aide d'une arme ou d'un sort, depuis l'intérieur de ce périmètre subit 1D10+4 points de dégâts d'acide. L'intense chaleur immunise contre les dégâts des armes et projectiles non-magiques.~
+Le long travail sur les dÃ©mons, a permis Ã  l'Alsaahir de dÃ©velopper une aura de flammes vertes qui blesse ses adversaires et le protÃ¨ge de leurs coups. Ce bouclier de flammes octroie une rÃ©sistance de 50% Ã  l'acide et aux poisons ainsi qu'un bonus de 2 Ã  la Classe d'armure. Il le protÃ¨ge Ã©galement de toutes les attaques provenant d'une distance maximale de 2 m autour de lui. Tout adversaire qui le frappe, que ce soit Ã  l'aide d'une arme ou d'un sort, depuis l'intÃ©rieur de ce pÃ©rimÃ¨tre subit 1D10+4 points de dÃ©gÃ¢ts d'acide. L'intense chaleur immunise contre les dÃ©gÃ¢ts des armes et projectiles non-magiques.~
 @154=~Chant d' Alsaahir~
-@155=~L'épée enflammée du Moudjahidine~
-@156=~L'épée enflammée du Moudjahidine
-(Évocation)
+@155=~L'Ã©pÃ©e enflammÃ©e du Moudjahidine~
+@156=~L'Ã©pÃ©e enflammÃ©e du Moudjahidine
+(Ã‰vocation)
 
-Portée : 0
-Durée : 4 rounds + 1 round par tranche de 2 niveaux 
+PortÃ©e : 0
+DurÃ©e : 4 rounds + 1 round par tranche de 2 niveaux 
 Temps d'incantation : 4 rounds
 Zone d'effet : le lanceur
 Jet de sauvegarde : Aucun 
 
-En utilisant cette capacité, le Moudjahidine conjure une épée enflammée. Cette arme inflige 1d10 de dégâts tranchants, et 1d10 de dégâts supplémentaires aux démons et morts-vivants. A chaque chaque coup porté :
--  15 % de chance de décapiter la cible. un Jet de sauvegarde contre la mort à - 2 réussit permet d'éviter la mort, la cible subie dans tous les cas 3D8 de dégâts tranchants
--  Dissipe tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour éviter)
+En utilisant cette capacitÃ©, le Moudjahidine conjure une Ã©pÃ©e enflammÃ©e. Cette arme inflige 1d10 de dÃ©gÃ¢ts tranchants, et 1d10 de dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et morts-vivants. A chaque chaque coup portÃ© :
+-  15 % de chance de dÃ©capiter la cible. un Jet de sauvegarde contre la mort Ã  - 2 rÃ©ussit permet d'Ã©viter la mort, la cible subie dans tous les cas 3D8 de dÃ©gÃ¢ts tranchants
+-  Dissipe tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour Ã©viter)
 
-Cette lame est considérée comme non-magique du niveau 1 à 4, comme une arme +1 du niveau 5 à 9, +2 du niveau 10 à 14, +3 du niveau 15 à 19, +4 du niveau 20 à 24 et enfin comme une arme +5 au niveau 25 et supérieur.
--  Au niveau 15, l'épée protège contre la peur
--  Au niveau 20, l'épée protège contre la peur et les plans d'énergie négative 
--  Au niveau 25, l'épée protège contre la peur, les plans d'énergie négative, les charmes et la confusion.~
-@157=~L'épée enflammée de l'Almusalil~
-@158=~L'épée enflammée de l'Almusalil
-(Évocation)
+Cette lame est considÃ©rÃ©e comme non-magique du niveau 1 Ã  4, comme une arme +1 du niveau 5 Ã  9, +2 du niveau 10 Ã  14, +3 du niveau 15 Ã  19, +4 du niveau 20 Ã  24 et enfin comme une arme +5 au niveau 25 et supÃ©rieur.
+-  Au niveau 15, l'Ã©pÃ©e protÃ¨ge contre la peur
+-  Au niveau 20, l'Ã©pÃ©e protÃ¨ge contre la peur et les plans d'Ã©nergie nÃ©gative 
+-  Au niveau 25, l'Ã©pÃ©e protÃ¨ge contre la peur, les plans d'Ã©nergie nÃ©gative, les charmes et la confusion.~
+@157=~L'Ã©pÃ©e enflammÃ©e de l'Almusalil~
+@158=~L'Ã©pÃ©e enflammÃ©e de l'Almusalil
+(Ã‰vocation)
 
-Portée : 0
-Durée : 4 rounds + 1 round par tranche de 2 niveaux 
+PortÃ©e : 0
+DurÃ©e : 4 rounds + 1 round par tranche de 2 niveaux 
 Temps d'incantation : 4 round
 Zone d'effet : Lanceur
 Jet de sauvegarde : Aucun 
 
-En utilisant cette capacité, l'Almusalil conjure une épée enflammée. Cette arme inflige 1d10 points de dégâts tranchants, et 1d10 points de dégâts supplémentaires aux démons et morts-vivants. A chaque chaque coup porté :
--  33 % de chance d'appliquer, à la cible, un malus de 1 à la force (jet de sauvegarde contre la mort pour éviter), 
--  33 % de chance de l'étourdir la cible (jet de sauvegarde contre les souffles pour éviter),
--  33 % de chance de restaurer 2d8 points de vie à l'Almusalil.
+En utilisant cette capacitÃ©, l'Almusalil conjure une Ã©pÃ©e enflammÃ©e. Cette arme inflige 1d10 points de dÃ©gÃ¢ts tranchants, et 1d10 points de dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et morts-vivants. A chaque chaque coup portÃ© :
+-  33 % de chance d'appliquer, Ã  la cible, un malus de 1 Ã  la force (jet de sauvegarde contre la mort pour Ã©viter), 
+-  33 % de chance de l'Ã©tourdir la cible (jet de sauvegarde contre les souffles pour Ã©viter),
+-  33 % de chance de restaurer 2d8 points de vie Ã  l'Almusalil.
 
-Cette lame est considérée comme non-magique du niveau 1 à 4, comme une arme +1 du niveau 5 à 9, +2 du niveau 10 à 14, +3 du niveau 15 à 19, +4 du niveau 20 à 24 et enfin comme une arme +5 au niveau 25 et supérieur. 
--  Au niveau 15, l'épée protège contre la peur
--  Au niveau 20, l'épée protège contre la peur et les plans d'énergie négative 
--  Au niveau 25, l'épée protège contre la peur, les plans d'énergie négative, les charmes et la confusion.~
+Cette lame est considÃ©rÃ©e comme non-magique du niveau 1 Ã  4, comme une arme +1 du niveau 5 Ã  9, +2 du niveau 10 Ã  14, +3 du niveau 15 Ã  19, +4 du niveau 20 Ã  24 et enfin comme une arme +5 au niveau 25 et supÃ©rieur. 
+-  Au niveau 15, l'Ã©pÃ©e protÃ¨ge contre la peur
+-  Au niveau 20, l'Ã©pÃ©e protÃ¨ge contre la peur et les plans d'Ã©nergie nÃ©gative 
+-  Au niveau 25, l'Ã©pÃ©e protÃ¨ge contre la peur, les plans d'Ã©nergie nÃ©gative, les charmes et la confusion.~
 @159=~stairway to heaven~
 @160=~stairway to heaven:
 
-Vous préférez le combat direct à la dissimulation et aux illusions, vous être un Moudjahidine. En quête de pouvoir, vous avez fait un pacte avec une créature extra-planaire puissante. Vos résistances aux dégâts tranchants, perforants, contondants, acides, de feu et magiques sont augementées de 10% ; votre TAC0 ainsi que vos jets de sauvegarde contre les souffles bénficie d'un bonus de +3.~
+Vous prÃ©fÃ©rez le combat direct Ã  la dissimulation et aux illusions, vous Ãªtre un Moudjahidine. En quÃªte de pouvoir, vous avez fait un pacte avec une crÃ©ature extra-planaire puissante. Vos rÃ©sistances aux dÃ©gÃ¢ts tranchants, perforants, contondants, acides, de feu et magiques sont augementÃ©es de 10% ; votre TAC0 ainsi que vos jets de sauvegarde contre les souffles bÃ©nficie d'un bonus de +3.~
 /*@161=~Stronger Pact~
 @162=~Stronger Pact:
 your gain +1 to damage, +1 to wisdom and +30 to HP~*/
 @163=~Sympathy For The Devil~
 @164=~Sympathy For The Devil:
 
-Vous êtes un maitre dans les arts de la dissimulation et de l'illusion, vous êtes un Almusalil. En quête de pouvoir, vous avez fait un pacte avec une créature extra-planaire puissante. Vous bénéficiez d'un bonus de 1 à votre sagesse, 2 à votre Classe d'armure et de 3 à vos jets de sauvegarde contre la mort.~
+Vous Ãªtes un maitre dans les arts de la dissimulation et de l'illusion, vous Ãªtes un Almusalil. En quÃªte de pouvoir, vous avez fait un pacte avec une crÃ©ature extra-planaire puissante. Vous bÃ©nÃ©ficiez d'un bonus de 1 Ã  votre sagesse, 2 Ã  votre Classe d'armure et de 3 Ã  vos jets de sauvegarde contre la mort.~
 
-@166=~Épée verte enflammée~
-@1661=~Épée verte enflammée
+@166=~Ã‰pÃ©e verte enflammÃ©e~
+@1661=~Ã‰pÃ©e verte enflammÃ©e
 
-Cette épée verte enflammée irradie une aura démoniaque palpable. L'épée apparaître directement dans la main de l'Alsaahir et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
+Cette Ã©pÃ©e verte enflammÃ©e irradie une aura dÃ©moniaque palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Alsaahir et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités de combat :
- Alsaahir : 1D10 de dégâts aux démons et morts-vivants
+CapacitÃ©s de combat :
+ Alsaahir : 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
 
-Dégâts : 1D10
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts : 1D10
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 5
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Alsaahir~
-@167=~Épée verte enflammée +1~
-@1671=~Épée verte enflammée +1
+@167=~Ã‰pÃ©e verte enflammÃ©e +1~
+@1671=~Ã‰pÃ©e verte enflammÃ©e +1
 
-Cette épée verte enflammée irradie une aura palpable. L'épée apparaître directement dans la main de l'Alsaahir et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
+Cette Ã©pÃ©e verte enflammÃ©e irradie une aura palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Alsaahir et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités de combat :
- Alsaahir : Bonus de 1D10 de dégâts aux démons et morts-vivants
+CapacitÃ©s de combat :
+ Alsaahir : Bonus de 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
 
 TAC0: +1
-Dégâts: 1D10 +1
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts: 1D10 +1
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 4
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Alsaahir~
-@168=~Épée verte enflammée +2~
-@1681=~Épée verte enflammée +2
+@168=~Ã‰pÃ©e verte enflammÃ©e +2~
+@1681=~Ã‰pÃ©e verte enflammÃ©e +2
 
-Cette épée verte enflammée irradie une aura palpable. L'épée apparaître directement dans la main de l'Alsaahir et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
+Cette Ã©pÃ©e verte enflammÃ©e irradie une aura palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Alsaahir et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités de combat :
- Alsaahir : Bonus de 1D10 de dégâts aux démons et morts-vivants
+CapacitÃ©s de combat :
+ Alsaahir : Bonus de 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
 
 TAC0: +2
-Dégâts: 1D10 +2
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts: 1D10 +2
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 3
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Alsaahir~
-@169=~Épée verte enflammée +3~
-@1691=~Épée verte enflammée +3
+@169=~Ã‰pÃ©e verte enflammÃ©e +3~
+@1691=~Ã‰pÃ©e verte enflammÃ©e +3
 
-Cette épée verte enflammée irradie une aura palpable. L'épée apparaître directement dans la main de l'Alsaahir et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
+Cette Ã©pÃ©e verte enflammÃ©e irradie une aura palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Alsaahir et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de la peur
 
-Capacités de combat :
- Alsaahir : Bonus de 1D10 de dégâts aux démons et morts-vivants
+CapacitÃ©s de combat :
+ Alsaahir : Bonus de 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
 
 TAC0: +3
-Dégâts: 1D10 +3
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts: 1D10 +3
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 2
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Alsaahir~
-@170=~Épée verte enflammée +4~
-@1701=~Épée verte enflammée +4
+@170=~Ã‰pÃ©e verte enflammÃ©e +4~
+@1701=~Ã‰pÃ©e verte enflammÃ©e +4
 
-Cette épée verte enflammée irradie une aura palpable. L'épée apparaître directement dans la main de l'Alsaahir et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
+Cette Ã©pÃ©e verte enflammÃ©e irradie une aura palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Alsaahir et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de l'Absorption de Niveaux
- Immunité aux effets de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de l'Absorption de Niveaux
+ ImmunitÃ© aux effets de la peur
 
-Capacités de combat :
- Alsaahir : Bonus de 1D10 de dégâts aux démons et morts-vivants
+CapacitÃ©s de combat :
+ Alsaahir : Bonus de 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
 
 TAC0 : +4
-Dégâts : 1D10 +4
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts : 1D10 +4
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 1
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Alsaahir~
-@171=~Épée verte enflammée +5~
-@1711=~Épée verte enflammée +5
+@171=~Ã‰pÃ©e verte enflammÃ©e +5~
+@1711=~Ã‰pÃ©e verte enflammÃ©e +5
 
-Cette épée verte enflammée irradie une aura palpable. L'épée apparaître directement dans la main de l'Alsaahir et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
+Cette Ã©pÃ©e verte enflammÃ©e irradie une aura palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Alsaahir et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de l'Absorption de Niveaux
- Immunité aux effets des Charmes, de la confusion et de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de l'Absorption de Niveaux
+ ImmunitÃ© aux effets des Charmes, de la confusion et de la peur
 
-Capacités de combat :
- Alsaahir: +1D10 de dégâts aux démons et morts-vivants
+CapacitÃ©s de combat :
+ Alsaahir: +1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
 
 TAC0: +5
-Dégâts: 1D10 +5
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts: 1D10 +5
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 0
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Inutilisable par :
  Alsaahir~
-@172=~Épée enflammée du Moudjahidine +1~
-@173=~Épée enflammée du Moudjahidine +2~
-@174=~Épée enflammée du Moudjahidine +3~
-@175=~Épée enflammée du Moudjahidine +4~
-@1751=~Épée enflammée du Moudjahidine +4
+@172=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +1~
+@173=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +2~
+@174=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +3~
+@175=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +4~
+@1751=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +4
 
-Cette épée enflammée irradie une aura planaire palpable. L'épée apparaître directement dans la main du Moudjahidine et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
-Pour Chaque attaque réussie, 15 % de chance de tuer la cible qui subira dans tous les cas 3d8 points de dégâts ainsi qu'une dissipation de la magie à chaque coup.
+Cette Ã©pÃ©e enflammÃ©e irradie une aura planaire palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main du Moudjahidine et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
+Pour Chaque attaque rÃ©ussie, 15 % de chance de tuer la cible qui subira dans tous les cas 3d8 points de dÃ©gÃ¢ts ainsi qu'une dissipation de la magie Ã  chaque coup.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de l'Absorption de Niveaux
- Immunité aux effets de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de l'Absorption de Niveaux
+ ImmunitÃ© aux effets de la peur
 
-Capacités de combat :
- Alsaahir: +1D10 de dégâts aux démons et morts-vivants
- Moudjahidine : 15 % de chance que la cible soit décapitée (jet de sauvegarde contre la mort à -2 pour éviter) ou subit 3D8 de dégats Tranchants
- Dissipation de la Magie : annule tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour éviter)
+CapacitÃ©s de combat :
+ Alsaahir: +1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
+ Moudjahidine : 15 % de chance que la cible soit dÃ©capitÃ©e (jet de sauvegarde contre la mort Ã  -2 pour Ã©viter) ou subit 3D8 de dÃ©gats Tranchants
+ Dissipation de la Magie : annule tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour Ã©viter)
 
 TAC0 : +4 bonus
-Dégâts : 1D10 +4
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts : 1D10 +4
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 1
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Moudjahidine~
-@176=~Épée enflammée du Moudjahidine +5~
-@1761=~Épée enflammée du Moudjahidine +5
+@176=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +5~
+@1761=~Ã‰pÃ©e enflammÃ©e du Moudjahidine +5
 
-Cette épée enflammée irradie une aura planaire palpable. L'épée apparaître directement dans la main du Moudjahidine et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
-Pour Chaque attaque réussie, 15 % de chance de tuer la cible qui subira dans tous les cas 3d8 points de dégâts ainsi qu'une dissipation de la magie à chaque coup.
+Cette Ã©pÃ©e enflammÃ©e irradie une aura planaire palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main du Moudjahidine et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
+Pour Chaque attaque rÃ©ussie, 15 % de chance de tuer la cible qui subira dans tous les cas 3d8 points de dÃ©gÃ¢ts ainsi qu'une dissipation de la magie Ã  chaque coup.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de l'Absorption de Niveaux
- Immunité aux effets des Charmes, de la confusion et de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de l'Absorption de Niveaux
+ ImmunitÃ© aux effets des Charmes, de la confusion et de la peur
 
-Capacités de combat :
- Alsaahir: +1D10 de dégâts aux démons et morts-vivants
- Moudjahidine : 15 % de chance que la cible soit décapitée (jet de sauvegarde contre la mort à -2 pour éviter) ou subit 3D8 de dégats Tranchants
- Dissipation de la Magie : annule tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour éviter)
+CapacitÃ©s de combat :
+ Alsaahir: +1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
+ Moudjahidine : 15 % de chance que la cible soit dÃ©capitÃ©e (jet de sauvegarde contre la mort Ã  -2 pour Ã©viter) ou subit 3D8 de dÃ©gats Tranchants
+ Dissipation de la Magie : annule tous les effets magiques affectant la cible (jet de sauvegarde contre les sorts pour Ã©viter)
 
 TAC0 : +5
-Dégâts : 1D10 +5
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts : 1D10 +5
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 0
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Moudjahidine~
-@177=~Épée enflammée de l'Almusalil +1~
-@178=~Épée enflammée de l'Almusalil +2~
-@179=~Épée enflammée de l'Almusalil +3~
-@180=~Épée enflammée de l'Almusalil +4~
-@1801=~Épée enflammée de l'Almusalil +4
+@177=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +1~
+@178=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +2~
+@179=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +3~
+@180=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +4~
+@1801=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +4
 
-Cette épée enflammée irradie une aura démoniaque palpable. L'épée apparaître directement dans la main de l'Almusalil et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
-Pour Chaque attaque réussie, 33 % de chance de diminuer la force de la cible de 1 (jet de sauvegarde contre la mort pour éviter), de l'étourdir (jet de sauvegarde contre les souffles) et 33 % de chance de restaurer 2d8 points de vie à l'Almusalil.
+Cette Ã©pÃ©e enflammÃ©e irradie une aura dÃ©moniaque palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Almusalil et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
+Pour Chaque attaque rÃ©ussie, 33 % de chance de diminuer la force de la cible de 1 (jet de sauvegarde contre la mort pour Ã©viter), de l'Ã©tourdir (jet de sauvegarde contre les souffles) et 33 % de chance de restaurer 2d8 points de vie Ã  l'Almusalil.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de l'Absorption de Niveaux
- Immunité aux effets de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de l'Absorption de Niveaux
+ ImmunitÃ© aux effets de la peur
 
-Capacités de combat :
- Alsaahir : Bonus de 1D10 de dégâts aux démons et morts-vivants
- Almusalil : à chaque chaque coup porté à la cible
--  33 % de chance de diminuer la force de la cible (jet de sauvegarde contre la mort pour éviter) 
--  33 % de chance d'étourdir la cible (jet de sauvegarde contre les souffles pour éviter)
--  33 % de chance de restaurer 2d8 points de vie à l'Almusalil.
+CapacitÃ©s de combat :
+ Alsaahir : Bonus de 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
+ Almusalil : Ã  chaque chaque coup portÃ© Ã  la cible
+-  33 % de chance de diminuer la force de la cible (jet de sauvegarde contre la mort pour Ã©viter) 
+-  33 % de chance d'Ã©tourdir la cible (jet de sauvegarde contre les souffles pour Ã©viter)
+-  33 % de chance de restaurer 2d8 points de vie Ã  l'Almusalil.
 
 TAC0: +4
-Dégâts: 1D10 +4
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts: 1D10 +4
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 1
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Almusalil~
-@181=~Épée enflammée de l'Almusalil +5~
-@1811=~Épée enflammée de l'Almusalil +5
+@181=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +5~
+@1811=~Ã‰pÃ©e enflammÃ©e de l'Almusalil +5
 
-Cette épée enflammée irradie une aura démoniaque palpable. L'épée apparaître directement dans la main de l'Almusalil et inflige des dégâts supplémentaires aux démons et aux morts-vivantes.
-Pour Chaque attaque réussie, 33 % de chance de diminuer la force de la cible de 1 (jet de sauvegarde contre la mort pour éviter), de l'étourdir (jet de sauvegarde contre les souffles) et 33 % de chance de restaurer 2d8 points de vie à l'Almusalil.
+Cette Ã©pÃ©e enflammÃ©e irradie une aura dÃ©moniaque palpable. L'Ã©pÃ©e apparaÃ®tre directement dans la main de l'Almusalil et inflige des dÃ©gÃ¢ts supplÃ©mentaires aux dÃ©mons et aux morts-vivantes.
+Pour Chaque attaque rÃ©ussie, 33 % de chance de diminuer la force de la cible de 1 (jet de sauvegarde contre la mort pour Ã©viter), de l'Ã©tourdir (jet de sauvegarde contre les souffles) et 33 % de chance de restaurer 2d8 points de vie Ã  l'Almusalil.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
- Immunité aux effets de l'Absorption de Niveaux
- Immunité aux effets des Charmes, de la confusion et de la peur
+CapacitÃ©s d'Ã©quipement :
+ ImmunitÃ© aux effets de l'Absorption de Niveaux
+ ImmunitÃ© aux effets des Charmes, de la confusion et de la peur
 
-Capacités de combat :
- Alsaahir : Bonus de 1D10 de dégâts aux démons et morts-vivants
- Almusalil : à chaque chaque coup porté à la cible
--  33 % de chance de diminuer la force de la cible (jet de sauvegarde contre la mort pour éviter) 
--  33 % de chance d'étourdir la cible (jet de sauvegarde contre les souffles pour éviter)
--  33 % de chance de restaurer 2d8 points de vie à l'Almusalil.
+CapacitÃ©s de combat :
+ Alsaahir : Bonus de 1D10 de dÃ©gÃ¢ts aux dÃ©mons et morts-vivants
+ Almusalil : Ã  chaque chaque coup portÃ© Ã  la cible
+-  33 % de chance de diminuer la force de la cible (jet de sauvegarde contre la mort pour Ã©viter) 
+-  33 % de chance d'Ã©tourdir la cible (jet de sauvegarde contre les souffles pour Ã©viter)
+-  33 % de chance de restaurer 2d8 points de vie Ã  l'Almusalil.
 
 TAC0 : +5
-Dégâts : 1D10 +5
-Type de Dégâts : Tranchant
+DÃ©gÃ¢ts : 1D10 +5
+Type de DÃ©gÃ¢ts : Tranchant
 Poids : 4
 Facteur de Vitesse : 0
-Type de compétence : Cimeterre
-Type : arme à une main
-Force nécessaire : 6
+Type de compÃ©tence : Cimeterre
+Type : arme Ã  une main
+Force nÃ©cessaire : 6
 Utilisable par :
  Almusalil~
-@182=~Flûte Magique :
+@182=~FlÃ»te Magique :
 
-Cette faculté permet de créer une flûte magique de pure énergie. Lorsque voue en joué, elle permet d'utiliser les capacités suivantes :
+Cette facultÃ© permet de crÃ©er une flÃ»te magique de pure Ã©nergie. Lorsque voue en jouÃ©, elle permet d'utiliser les capacitÃ©s suivantes :
 Rayon divin - 3 charges
 Souhait mineur - 1 charge
 Convoque le Gardien - 1 charge
 
-Les capacités s'utilisent comme une baguette magique. La flûte se dissipe après 1 journée.~
-@183=~Vos résistances ont été augmentées~
+Les capacitÃ©s s'utilisent comme une baguette magique. La flÃ»te se dissipe aprÃ¨s 1 journÃ©e.~
+@183=~Vos rÃ©sistances ont Ã©tÃ© augmentÃ©es~
 @184=~Aura de flamme verte~
-@185=~Épée verte enflammée
+@185=~Ã‰pÃ©e verte enflammÃ©e
 (Evocation)
-Portée : 0
-Durée : 4 rounds + 1 round par tranche de 2 niveaux 
+PortÃ©e : 0
+DurÃ©e : 4 rounds + 1 round par tranche de 2 niveaux 
 Temps d'incantation : 4 round
 Zone d'effet : le lanceur
 Jet de sauvegarde : Aucun 
 
-En utilisant cette capacité, l'Alsaahir conjure une épée verte enflammée. Cette arme inflige 1d10 de dégats tranchants, et 1d10 de dégats supplémentaires aux démons et morts-vivants, est non-magic du niveau 1 à 4,  son enchantement passe à +1 pour les niveaux 5 à 9, +2 pour les niveaux 10 à 14, +3 pour les niveaux 15 à 19, +4 pour les niveaux 20 à 24 et +5 pour les niveaux 25 et suppérieure. 
--  Au niveau 15, l'épée protège contre la peur
--  Au niveau 20, l'épée protège contre la peur et les plans d'énergie négative 
--  Au niveau 25, l'épée protège contre la peur, les plans d'énergie négative, les charmes et la confusion.~
-@186=~Déplacement~
-@187=~Déplacement
-(Illusion / Phantasme)  
+En utilisant cette capacitÃ©, l'Alsaahir conjure une Ã©pÃ©e verte enflammÃ©e. Cette arme inflige 1d10 de dÃ©gats tranchants, et 1d10 de dÃ©gats supplÃ©mentaires aux dÃ©mons et morts-vivants, est non-magic du niveau 1 Ã  4,  son enchantement passe Ã  +1 pour les niveaux 5 Ã  9, +2 pour les niveaux 10 Ã  14, +3 pour les niveaux 15 Ã  19, +4 pour les niveaux 20 Ã  24 et +5 pour les niveaux 25 et suppÃ©rieure. 
+-  Au niveau 15, l'Ã©pÃ©e protÃ¨ge contre la peur
+-  Au niveau 20, l'Ã©pÃ©e protÃ¨ge contre la peur et les plans d'Ã©nergie nÃ©gative 
+-  Au niveau 25, l'Ã©pÃ©e protÃ¨ge contre la peur, les plans d'Ã©nergie nÃ©gative, les charmes et la confusion.~
+@186=~DÃ©placement~
+@187=~DÃ©placement
+(Illusion / Fantasme)  
 Niveau : 2
-Portée : 0
-Durée : 10 Rounds 
+PortÃ©e : 0
+DurÃ©e : 10 Rounds 
 Temps d'incantation : 1 round
 Zone d'effet : Lanceur
 Jet de sauvegarde : Aucun 
 
-Ce sort permet au magicien d'apparaître à une soixantaine de centimètres de l'endroit où il se trouve réellement. Seul le sort de vision véritable révèle l'endroit où il se trouve vraiment.  Une créature tentant d'attaquer aura 50 % de chance d’échec et subit un malus de 2 à toutes ses attaques. Le magicien bénéficie également d'un bonus de 2 a ses jets de sauvegarde.~
-@188=~Flûte Magique:
+Ce sort permet au magicien d'apparaÃ®tre Ã  une soixantaine de centimÃ¨tres de l'endroit oÃ¹ il se trouve rÃ©ellement. Seul le sort de vision vÃ©ritable rÃ©vÃ¨le l'endroit oÃ¹ il se trouve vraiment.  Une crÃ©ature tentant d'attaquer aura 50 % de chance dÂ’Ã©chec et subit un malus de 2 Ã  toutes ses attaques. Le magicien bÃ©nÃ©ficie Ã©galement d'un bonus de 2 a ses jets de sauvegarde.~
+@188=~FlÃ»te Magique:
 
-Cette faculté permet de créer une flûte magique de pure énergie. Lorsque voue en joué, elle permet d'utiliser les capacités suivantes :
+Cette facultÃ© permet de crÃ©er une flÃ»te magique de pure Ã©nergie. Lorsque voue en jouÃ©, elle permet d'utiliser les capacitÃ©s suivantes :
 Rayon divin - 3 charges
 Souhait mineur - 1 charge
 Convoque le Dissimulateur - 1 charge
 
-Les capacités s'utilisent comme une baguette magique. La flûte se dissipe après 1 journée.~
+Les capacitÃ©s s'utilisent comme une baguette magique. La flÃ»te se dissipe aprÃ¨s 1 journÃ©e.~
 @189=~Forme Ectoplasmique~
 @190=~Forme Ectoplasmique
 (Illusion / Fantasme)
 Niveau : 3
-Portée : 0
-Durée : 10 Rounds 
+PortÃ©e : 0
+DurÃ©e : 10 Rounds 
 Temps d'incantation : 1 round
 Zone d'effet : Lanceur
 Jet de sauvegarde : Aucun 
 
-Le lanceur ainsi que tout son équipement deviennent intangibles. Il ne peut être blessé que par des attaques magiques ou spéciales, ou par des créatures capables d'affecter les personnes ne pouvant être blessées que par des armes magiques. Il gagne aussi 25% de résistance à la magie. Aucune attaque ou sort ne peut être porté sous cette forme. Une dissipation de la magie réussie force le lanceur à reprendre sa forme normale. Le lanceur peut y mettre fin d'un simple mot. 
-Au niveau 10, cette capacité protège aussi contre les armes +1 et le lanceur gagne 35% de résistance à la magie. Au niveau 20, cette capacité protège contre les armes +2 et donne 45% de résistance à la magie.
+Le lanceur ainsi que tout son Ã©quipement deviennent intangibles. Il ne peut Ãªtre blessÃ© que par des attaques magiques ou spÃ©ciales, ou par des crÃ©atures capables d'affecter les personnes ne pouvant Ãªtre blessÃ©es que par des armes magiques. Il gagne aussi 25% de rÃ©sistance Ã  la magie. Aucune attaque ou sort ne peut Ãªtre portÃ© sous cette forme. Une dissipation de la magie rÃ©ussie force le lanceur Ã  reprendre sa forme normale. Le lanceur peut y mettre fin d'un simple mot. 
+Au niveau 10, cette capacitÃ© protÃ¨ge aussi contre les armes +1 et le lanceur gagne 35% de rÃ©sistance Ã  la magie. Au niveau 20, cette capacitÃ© protÃ¨ge contre les armes +2 et donne 45% de rÃ©sistance Ã  la magie.
 
-La plupart des morts-vivants ignorent les individus sous forme ectoplasmique, les prenant pour des âmes-en-peine ou des fantômes — bien qu'une liche, un vampire ou autre mort-vivant spécial peut reconnaître l'utilisation de cette capacité.~
-@191=~Forme ectoplasmique dissipée~
+La plupart des morts-vivants ignorent les individus sous forme ectoplasmique, les prenant pour des Ã¢mes-en-peine ou des fantÃ´mes Â— bien qu'une liche, un vampire ou autre mort-vivant spÃ©cial peut reconnaÃ®tre l'utilisation de cette capacitÃ©.~
+@191=~Forme ectoplasmique dissipÃ©e~
 @192=~Convocation du Gardien~
 @193=~Convocation du Gardien
 (Conjuration / Convocation)
 
-Portée : 40 mètres
-Durée : 8 Rounds + 1 round/niveau
+PortÃ©e : 40 mÃ¨tres
+DurÃ©e : 8 Rounds + 1 round/niveau
 Temps d'incantation : 1 round
-Zone d'effet : Spéciale
+Zone d'effet : SpÃ©ciale
 Jet de sauvegarde : Non 
 
-Ce sort convainc un Gardien, un génie aux pouvoirs puissants, de quitter son Plan pour venir vous servir. Le Gardien sera au service du Moudjahidine pour la durée du sort.~
+Ce sort convainc un Gardien, un gÃ©nie aux pouvoirs puissants, de quitter son Plan pour venir vous servir. Le Gardien sera au service du Moudjahidine pour la durÃ©e du sort.~
 @194=~Convocation du Dissimulateur~
 @195=~Convocation du Dissimulateur
 (Conjuration / Convocation)
 
-Portée : 40 mètres
-Durée : 8 Rounds + 1 round/niveau
+PortÃ©e : 40 mÃ¨tres
+DurÃ©e : 8 Rounds + 1 round/niveau
 Temps d'incantation : 1 round
-Zone d'effet : Spéciale
+Zone d'effet : SpÃ©ciale
 Jet de sauvegarde : Non 
 
-Ce sort convainc un Dissimulateur, un génie aux pouvoirs puissants, de quitter son Plan pour venir vous servir. Le Dissimulateur sera au service de l'Almusalil pour la durée du sort.~
+Ce sort convainc un Dissimulateur, un gÃ©nie aux pouvoirs puissants, de quitter son Plan pour venir vous servir. Le Dissimulateur sera au service de l'Almusalil pour la durÃ©e du sort.~
 
 /* =============== *
  *  WeiDU prompts  *
