@@ -1,6 +1,6 @@
 # **Alsaahir kit for BG2**
 
-Version: 4.0  
+Version: 5.0  
 Author: TotoR   
 Languagues: English and French
 
@@ -28,9 +28,10 @@ Advantages:
 -  Can use the Alsaahir'song.
 -  At level 1, may conjure a Green Flame Blade once per day. gains another use at level 10 and 20
 -  At level 1, may use Wraithform at will
--  At level 3, Gains +3 to hit and damage against fiends and undeads. It becomes +6 at level 13
--  At level 5, Gains 5% resistance to slashing, piercing, crushing, acid, fire and magical damages. It further improves at level 15
--  Gains 1/2 attack bonus at level 8
+-  At level 3, +2 to AC and saving throw vs. Demons and undeads
+-  At level 5, +3 to hit and damage against fiends and undeads. It becomes +6 at level 13
+-  At level 8, gains 1/2 attack bonus
+-  At level 10, Gains 5% resistance to slashing, piercing, crushing, acid, fire and magical damages. It further improves at level 15
 -  Can achieve mastery in daggers, scimitars and maces
 -  like an Illusionist, casts and resists better to illusion's spells
 -  knowledge is a weapon. Like a cleric, wisdom increase the number of spells cast by level
