@@ -41,7 +41,8 @@ COPY ~alsaahir/spl/TR#DC02.SPL~ override                 // green flame blade
 	SAY 0x50 @185
 COPY ~alsaahir/spl/TR#DC07.SPL~ override                 // resistances part 1
 	SAY 0x50 @183
-COPY ~alsaahir/spl/TR#DC05.SPL~ override                 // 1/2 attack bonus
+COPY ~alsaahir/spl/TR#DC04.SPL~ override                 // +2 AC and saves bonus vs demons and undead
+	 ~alsaahir/spl/TR#DC05.SPL~ override                 // 1/2 attack bonus
      ~alsaahir/spl/TR#DC08.SPL~ override                 // +3 hit and damages vs demons and undead
      ~alsaahir/spl/TR#DC09.SPL~ override                 // +6 hit and damages vs demons and undead
 	 ~alsaahir/spl/TR#DCS02.eff~ override                // alsaahir song (Ennemy)
