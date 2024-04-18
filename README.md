@@ -17,7 +17,7 @@ So with this kit :
     you can mastering (***) some weapons at the cost of the bard's natural versatility in weapons.
     You will also gain some natural protection and abilities that protect you from weapons
 
-In consequence you will now choose if you want to go more towards fighter (constitutuion) or wizard (wisdom).
+In consequence you will now choose if you want to go more towardsi fighter (constitutuion) or wizard (wisdom).
 
 ## **II. The Kit**
 
@@ -89,7 +89,7 @@ A whole community wich survive more than 20 years... and specially **the bigg** 
 
 Version 4.0 - january 2023
 - some minor spell update
-- some tra update
+- some tra update - thanks to @11jo
 
 Version 2.0/3.0 - ??
 - EE compatibility
